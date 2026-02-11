@@ -1,0 +1,69 @@
+{
+  "usersByEmail": [
+    [
+      "monisha.22ads@sonatech.ac.in",
+      {
+        "email": "monisha.22ads@sonatech.ac.in",
+        "phone": "9150206347",
+        "userType": "business",
+        "passwordHash": "$2a$10$zp4Bu500CAHiaFoAxBaVFu6NMoJiEXiz.OC2hy9xDF0AkAsj8PkRu",
+        "createdAt": "2026-02-11T04:43:11.131Z"
+      }
+    ]
+  ],
+  "businessProfilesByEmail": [
+    [
+      "monisha.22ads@sonatech.ac.in",
+      {
+        "businessType": "startup",
+        "legalEntityType": "private_limited",
+        "businessName": "skathi",
+        "ownerName": "sakthi",
+        "gender": "female",
+        "pan": "HUUPL3355L",
+        "mobile": "9150206347",
+        "state": "Tamil nadu",
+        "city": "Dharmapuri",
+        "pincode": "635205",
+        "sector": "agri_food",
+        "primaryNeed": "loan",
+        "website": "",
+        "yearOfIncorporation": 2012,
+        "employeeCount": 25,
+        "annualTurnoverLakhs": 250000,
+        "fundingNeedLakhs": 120000,
+        "founderShareholding": 3,
+        "hasGst": false,
+        "gstin": "",
+        "udyamNumber": "",
+        "dpiitNumber": "DPIIT123456",
+        "womenLed": true,
+        "scstLed": false,
+        "differentlyAbledLed": false,
+        "exportFocus": true,
+        "hasIp": false,
+        "email": "monisha.22ads@sonatech.ac.in",
+        "updatedAt": "2026-02-11T04:45:01.286Z",
+        "createdAt": "2026-02-11T04:45:01.286Z"
+      }
+    ]
+  ],
+  "panToEmail": [
+    [
+      "HUUPL3355L",
+      "monisha.22ads@sonatech.ac.in"
+    ]
+  ],
+  "gstinToEmail": [],
+  "udyamToEmail": [],
+  "dpiitToEmail": [
+    [
+      "DPIIT123456",
+      "monisha.22ads@sonatech.ac.in"
+    ]
+  ],
+  "resetTokensByEmail": [],
+  "uploadedDocsByEmail": [],
+  "notificationReadsByEmail": [],
+  "docCounter": 1
+}
