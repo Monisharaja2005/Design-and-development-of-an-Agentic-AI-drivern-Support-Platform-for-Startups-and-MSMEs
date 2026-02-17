@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import AuthScreen from './components/AuthScreen.jsx';
 import BusinessDashboard from './components/BusinessDashboard.jsx';
+import LandingPage from './components/LandingPage.jsx';
 import { API_BASE_URL, TOKEN_KEY, initialProfileForm, passwordChecks, profileSteps } from './constants/profile.js';
 import { getProfileClientErrors, getRequiredFields } from './utils/profileValidation.js';
 
 function App() {
+  const [view, setView] = useState('landing'); // 'landing', 'auth', 'dashboard'
   const [mode, setMode] = useState('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -59,6 +61,22 @@ function App() {
   }, [profileForm]);
 
   const profileClientErrors = useMemo(() => getProfileClientErrors(profileForm), [profileForm]);
+
+  // Landing page handlers
+  const handleGetStarted = () => {
+    setView('auth');
+    setMode('register');
+  };
+
+  const handleWatchDemo = () => {
+    // Could implement a video modal here
+    alert('Demo video would play here!');
+  };
+
+  const handleLoginClick = () => {
+    setView('auth');
+    setMode('login');
+  };
 
   useEffect(() => {
     async function loadRequirements() {
@@ -446,10 +464,11 @@ function App() {
     setProfile(null);
     setRecommendations([]);
     setProfileForm(initialProfileForm);
-    setMessage('You have logged out.');
+    setMessage('');
     setError('');
     setMode('login');
     setActiveStep(0);
+    setView('landing');
   }
 
   if (initializing) {
@@ -460,6 +479,17 @@ function App() {
           <p className="subtitle">Checking your session...</p>
         </main>
       </div>
+    );
+  }
+
+  // Show landing page
+  if (view === 'landing') {
+    return (
+      <LandingPage
+        onGetStarted={handleGetStarted}
+        onWatchDemo={handleWatchDemo}
+        onLogin={handleLoginClick}
+      />
     );
   }
 

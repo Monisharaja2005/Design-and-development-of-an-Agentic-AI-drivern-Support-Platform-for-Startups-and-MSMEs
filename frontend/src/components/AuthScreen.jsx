@@ -34,215 +34,242 @@ function AuthScreen({
   const isRegister = mode === 'register';
 
   return (
-    <div className="page auth-page">
-      <div className="bg-shape" aria-hidden="true" />
-      <div className="bg-grid" aria-hidden="true" />
-
-      <main className="auth-shell auth-entry">
-        <section className="portal-panel">
-          <p className="portal-kicker">National Startup and MSME Facilitation Portal</p>
+    <div className="auth-page">
+      {/* Left Panel - Branding */}
+      <div className="auth-brand-panel">
+        <div className="brand-content">
+          <div className="brand-logo">
+            <div className="logo-icon">SI</div>
+            <span className="logo-text">SchemeIQ</span>
+          </div>
+          
           <h2>Single Gateway for Onboarding, Compliance, and Scheme Access</h2>
-          <p>
-            Build a verified business profile once, keep it updated, and receive targeted scheme workflows with
-            document readiness status.
-          </p>
+          
+          <p>Build a verified business profile once, keep it updated, and receive targeted scheme workflows with document readiness status.</p>
 
-          <div className="panel-metrics">
-            <article>
-              <span>250+</span>
-              <small>Active scheme tracks</small>
-            </article>
-            <article>
-              <span>Live</span>
-              <small>Profile-based eligibility</small>
-            </article>
-            <article>
-              <span>Role-safe</span>
-              <small>Secure JWT session model</small>
-            </article>
-          </div>
-
-          <div className="auth-feature-grid">
-            <div>
-              <h4>Standardized onboarding</h4>
-              <p>Structured registration for founders, entities, and compliance identifiers.</p>
-            </div>
-            <div>
-              <h4>Adaptive recommendations</h4>
-              <p>Schemes are scored from real profile signals and update as your data changes.</p>
-            </div>
-            <div>
-              <h4>Document readiness</h4>
-              <p>Track verification quality and fix blockers before final application submission.</p>
-            </div>
-          </div>
-        </section>
-
-        <section className="card auth-card">
-          <div className="mode-switch" role="tablist" aria-label="Auth mode">
-            <button
-              type="button"
-              className={mode === 'login' ? 'mode-btn active' : 'mode-btn'}
-              onClick={() => {
-                setMode('login');
-              }}
-            >
-              Sign In
-            </button>
-            <button
-              type="button"
-              className={mode === 'register' ? 'mode-btn active' : 'mode-btn'}
-              onClick={() => {
-                setMode('register');
-              }}
-            >
-              Create Account
-            </button>
-          </div>
-
-          <p className="form-kicker">Secure Access</p>
-          <h1>{isRegister ? 'Create your portal account' : 'Welcome back'}</h1>
-          <p className="subtitle">
-            {isRegister
-              ? 'Register your account to start your Startup/MSME profile setup.'
-              : 'Sign in to continue your profile, schemes, and document workflows.'}
-          </p>
-
-          <form className="form" onSubmit={submitAuth}>
-            <div className="grid-two compact-grid">
+          <div className="brand-features">
+            <div className="feature-item">
+              <span className="feature-icon">📋</span>
               <div>
-                <label htmlFor="email">Email</label>
+                <h4>Standardized onboarding</h4>
+                <p>Structured registration for founders, entities, and compliance identifiers.</p>
+              </div>
+            </div>
+            <div className="feature-item">
+              <span className="feature-icon">🎯</span>
+              <div>
+                <h4>Adaptive recommendations</h4>
+                <p>Schemes are scored from real profile signals and update as your data changes.</p>
+              </div>
+            </div>
+            <div className="feature-item">
+              <span className="feature-icon">📄</span>
+              <div>
+                <h4>Document readiness</h4>
+                <p>Track verification quality and fix blockers before final application.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="brand-stats">
+            <div className="stat-item">
+              <span className="stat-value">250+</span>
+              <span className="stat-label">Active schemes</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-value">Live</span>
+              <span className="stat-label">Profile-based eligibility</span>
+            </div>
+            <div className="stat-item">
+              <span className="stat-value">Secure</span>
+              <span className="stat-label">JWT session model</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Right Panel - Form */}
+      <div className="auth-form-panel">
+        <div className="form-container">
+          <div className="form-header">
+            <div className="form-tabs">
+              <button 
+                type="button"
+                className={`tab-item ${mode === 'login' ? 'active' : ''}`}
+                onClick={() => setMode('login')}
+              >
+                Sign In
+              </button>
+              <button 
+                type="button"
+                className={`tab-item ${mode === 'register' ? 'active' : ''}`}
+                onClick={() => setMode('register')}
+              >
+                Create Account
+              </button>
+            </div>
+            
+            <h1>{isRegister ? 'Create your account' : 'Welcome back'}</h1>
+            <p className="form-subtitle">
+              {isRegister 
+                ? 'Register your account to start your Startup/MSME profile setup.' 
+                : 'Sign in to continue your profile, schemes, and document workflows.'}
+            </p>
+          </div>
+
+          <form className="auth-form" onSubmit={submitAuth}>
+            <div className="form-group">
+              <label htmlFor="email">Email Address</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="you@company.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+
+            {isRegister && (
+              <div className="form-group">
+                <label htmlFor="phone">Phone Number</label>
                 <input
-                  id="email"
-                  type="email"
-                  placeholder="you@company.com"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  id="phone"
+                  type="tel"
+                  placeholder="10-digit mobile"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value.replace(/\D/g, '').slice(0, 10))}
                   required
                 />
               </div>
+            )}
 
-              {isRegister ? (
-                <div>
-                  <label htmlFor="phone">Phone Number</label>
-                  <input
-                    id="phone"
-                    type="tel"
-                    placeholder="10-digit mobile"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value.replace(/\D/g, '').slice(0, 10))}
-                    required
+            <div className="form-group">
+              <label htmlFor="password">Password</label>
+              <div className="password-input-group">
+                <input
+                  id="password"
+                  type={showPassword ? 'text' : 'password'}
+                  placeholder="Enter your password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
+                <button 
+                  type="button" 
+                  className="toggle-password"
+                  onClick={() => setShowPassword(!showPassword)}
+                >
+                  {showPassword ? 'Hide' : 'Show'}
+                </button>
+              </div>
+            </div>
+
+            {isRegister && (
+              <div className="password-strength">
+                <div className="strength-header">
+                  <span>Password strength</span>
+                  <span className={`strength-level level-${strength}`}>{strength}/5</span>
+                </div>
+                <div className="strength-bar">
+                  <div 
+                    className={`strength-fill fill-${strength}`} 
+                    style={{ width: `${(strength / 5) * 100}%` }}
                   />
                 </div>
-              ) : (
-                <div className="inline-control">
-                  <label className="check-row" htmlFor="remember">
-                    <input
-                      id="remember"
-                      type="checkbox"
-                      checked={remember}
-                      onChange={(e) => setRemember(e.target.checked)}
-                    />
-                    Keep me signed in
-                  </label>
-                </div>
-              )}
-            </div>
-
-            {isRegister ? (
-              <div>
-                <label htmlFor="userType">Account Type</label>
-                <select id="userType" value={userType} onChange={(e) => setUserType(e.target.value)} required>
-                  <option value="business">Business</option>
-                  <option value="individual">Individual</option>
-                </select>
-              </div>
-            ) : null}
-
-            <label htmlFor="password">Password</label>
-            <div className="password-row">
-              <input
-                id="password"
-                type={showPassword ? 'text' : 'password'}
-                placeholder="Enter password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-              />
-              <button type="button" className="ghost-btn" onClick={() => setShowPassword((v) => !v)}>
-                {showPassword ? 'Hide' : 'Show'}
-              </button>
-            </div>
-
-            {isRegister ? (
-              <section className="strength-box" aria-live="polite">
-                <div className="strength-head">
-                  <p>Password strength</p>
-                  <strong>{strength}/5</strong>
-                </div>
-                <div className="strength-meter">
-                  <div className="strength-fill" style={{ width: `${(strength / 5) * 100}%` }} />
-                </div>
-                <ul>
+                <ul className="strength-requirements">
                   {checks.map((check) => (
-                    <li key={check.key} className={check.pass ? 'ok' : 'bad'}>
-                      {check.pass ? 'Met' : 'Pending'}: {check.label}
+                    <li key={check.key} className={check.pass ? 'met' : ''}>
+                      <span className="check-icon">{check.pass ? '✓' : '○'}</span>
+                      {check.label}
                     </li>
                   ))}
                 </ul>
-              </section>
-            ) : null}
+              </div>
+            )}
 
-            <button type="submit" disabled={authLoading || !canSubmit}>
-              {authLoading ? 'Please wait...' : isRegister ? 'Create Account' : 'Login to Portal'}
-            </button>
-          </form>
+            {!isRegister && (
+              <div className="form-options">
+                <label className="remember-me">
+                  <input
+                    type="checkbox"
+                    checked={remember}
+                    onChange={(e) => setRemember(e.target.checked)}
+                  />
+                  <span>Keep me signed in</span>
+                </label>
+                <button 
+                  type="button" 
+                  className="forgot-link"
+                  onClick={() => setShowForgot(!showForgot)}
+                >
+                  Forgot password?
+                </button>
+              </div>
+            )}
 
-          {!isRegister ? (
-            <div className="forgot-wrap">
-              <button type="button" className="link-btn" onClick={() => setShowForgot((v) => !v)}>
-                {showForgot ? 'Hide password reset' : 'Forgot password?'}
-              </button>
-              {showForgot ? (
-                <div className="forgot-panel">
-                  <form className="form" onSubmit={requestResetToken}>
+            {showForgot && !isRegister && (
+              <div className="forgot-panel">
+                <form onSubmit={requestResetToken}>
+                  <div className="form-group">
                     <label htmlFor="resetEmail">Account Email</label>
                     <input
                       id="resetEmail"
                       type="email"
                       value={resetEmail}
                       onChange={(e) => setResetEmail(e.target.value)}
+                      placeholder="Enter your email"
                       required
                     />
-                    <button type="submit">Generate Reset Token</button>
+                  </div>
+                  <button type="submit" className="btn-small">Send Reset Link</button>
+                </form>
+                
+                {resetToken && (
+                  <form onSubmit={submitResetPassword} className="reset-form">
+                    <div className="form-group">
+                      <label htmlFor="resetToken">Reset Token</label>
+                      <input
+                        id="resetToken"
+                        type="text"
+                        value={resetToken}
+                        onChange={(e) => setResetToken(e.target.value)}
+                        placeholder="Enter token"
+                        required
+                      />
+                    </div>
+                    <div className="form-group">
+                      <label htmlFor="newPassword">New Password</label>
+                      <input
+                        id="newPassword"
+                        type="password"
+                        value={newPassword}
+                        onChange={(e) => setNewPassword(e.target.value)}
+                        placeholder="Enter new password"
+                        required
+                      />
+                    </div>
+                    <button type="submit" className="btn-small">Reset Password</button>
                   </form>
-                  <form className="form" onSubmit={submitResetPassword}>
-                    <label htmlFor="resetToken">Reset Token</label>
-                    <input
-                      id="resetToken"
-                      value={resetToken}
-                      onChange={(e) => setResetToken(e.target.value)}
-                      required
-                    />
-                    <label htmlFor="newPassword">New Password</label>
-                    <input
-                      id="newPassword"
-                      type="password"
-                      value={newPassword}
-                      onChange={(e) => setNewPassword(e.target.value)}
-                      required
-                    />
-                    <button type="submit">Reset Password</button>
-                  </form>
-                </div>
-              ) : null}
-            </div>
-          ) : null}
+                )}
+              </div>
+            )}
 
-          {message ? <p className="message">{message}</p> : null}
-          {error ? <p className="error">{error}</p> : null}
-        </section>
-      </main>
+            {message && <div className="form-message success">{message}</div>}
+            {error && <div className="form-message error">{error}</div>}
+
+            <button type="submit" disabled={authLoading || !canSubmit} className="btn-submit">
+              {authLoading ? 'Please wait...' : isRegister ? 'Create Account' : 'Sign In'}
+            </button>
+          </form>
+
+          <div className="form-footer">
+            {!isRegister && (
+              <p>Don't have an account? <button type="button" onClick={() => setMode('register')}>Create one</button></p>
+            )}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
