@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+*.sqlite
+*.db
+/data/
+.env
+.env.local

@@ -1,0 +1,42 @@
+[
+  {
+    "scheme_id": "SCH-151417f0",
+    "scheme_code": "CG-001",
+    "scheme_name": "Credit Guarantee Fund Trust for Micro & Small Enterprises (CGTMSE)",
+    "state": "Central Government",
+    "sector": "All Sectors",
+    "eligibility": "Micro and Small enterprises with Udyam registration, new or existing",
+    "description": "Provides collateral-free credit guarantee to MSEs through member lending institutions. No third-party guarantee required. Over 60 lakh guarantees issued since inception.",
+    "semantic_text": "Credit Guarantee Fund Trust for Micro & Small Enterprises (CGTMSE) scheme in Central Government for MSME or Startup in All Sectors sector. Eligibility: Micro and Small enterprises with Udyam registration, new or existing"
+  },
+  {
+    "scheme_id": "SCH-93680a06",
+    "scheme_code": "CG-002",
+    "scheme_name": "PM MUDRA Yojana — Shishu Category",
+    "state": "Central Government",
+    "sector": "All Sectors",
+    "eligibility": "Non-corporate non-farm income generating activities; no prior loan default",
+    "description": "Micro-finance for very small and new businesses. No collateral required. Targeted at street vendors, artisans, and first-generation micro entrepreneurs.",
+    "semantic_text": "PM MUDRA Yojana — Shishu Category scheme in Central Government for MSME or Startup in All Sectors sector. Eligibility: Non-corporate non-farm income generating activities; no prior loan default"
+  },
+  {
+    "scheme_id": "SCH-5494feec",
+    "scheme_code": "CG-003",
+    "scheme_name": "PM MUDRA Yojana — Kishor Category",
+    "state": "Central Government",
+    "sector": "All Sectors",
+    "eligibility": "Existing micro enterprises with 6+ months business vintage",
+    "description": "For established micro businesses seeking to expand. Covers working capital and term loan needs with minimal documentation requirements.",
+    "semantic_text": "PM MUDRA Yojana — Kishor Category scheme in Central Government for MSME or Startup in All Sectors sector. Eligibility: Existing micro enterprises with 6+ months business vintage"
+  },
+  {
+    "scheme_id": "SCH-34d48e37",
+    "scheme_code": "CG-004",
+    "scheme_name": "PM MUDRA Yojana — Tarun Category",
+    "state": "Central Government",
+    "sector": "All Sectors",
+    "eligibility": "Well-established micro enterprises with proven track record",
+    "description": "For well-established micro businesses needing higher credit. No collateral required. Competitive interest rates through partner lenders.",
+    "semantic_text": "PM MUDRA Yojana — Tarun Category scheme in Central Government for MSME or Startup in All Sectors sector. Eligibility: Well-established micro enterprises with proven track record"
+  }
+]

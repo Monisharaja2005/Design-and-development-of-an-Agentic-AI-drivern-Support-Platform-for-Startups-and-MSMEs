@@ -1,0 +1,1247 @@
+{
+  "common": {
+    "dashboard": "ડેશબોર્ડ",
+    "discovery": "આ યોજના શોધો",
+    "validation": "દસ્તાવેજ માન્યતા",
+    "assistant": "AI સલાહકાર",
+    "profile": "મારું પ્રોફાઇલ",
+    "logout": "લોગ આઉટ કરો",
+    "active": "સક્રિય",
+    "engine_online": "AI એન્જિન ઓનલાઇન",
+    "engine_offline": "એન્જિન ઓફલાઇન",
+    "navigation": "નેવિગેશન",
+    "shortlisted": "સંક્ષિપ્ત યાદી",
+    "shortlist": "યાદી બનાવો",
+    "saved_schemes": "બચાવેલા યોજનાઓ",
+    "pro_tip": "ઉપરોકત સલાહ",
+    "pro_subtitle": "ચકાસાયેલ વ્યવસાયોને યોજના મેળવવા માટે 3 ગણો ઉચ્ચ પ્રાથમિકતા મળે છે.",
+    "grounded": "મૂળભૂત માહિતી",
+    "re_run": "ફરીથી વિશ્લેષણ કરો",
+    "view_details": "વિગતો જુઓ",
+    "sort": "ક્રમમાં ગોઠવો",
+    "matches": "સંવાદયો",
+    "clear_all": "બધા ફિલ્ટર સાફ કરો",
+    "complete": "પૂર્ણ કરો"
+  },
+  "dashboard": {
+    "title": "ઇન્ટેલિજન્સ ડેશબોર્ડ",
+    "subtitle": "AI-સંચાલિત ઝાંખી",
+    "welcome_back": "તારીખ પાછી આવી",
+    "intel_summary": "KARIOS ઇન્ટેલિજન્સ સારાંશ",
+    "karios_score": "KARIOS સ્કોર",
+    "status_optimized": "ઑપ્ટિમાઇઝ્ડ લાયકાત શોધી કાઢવામાં આવી",
+    "status_needed": "સંપૂર્ણ KARIOS સ્કોર માટે પ્રોફાઇલની જરૂર છે",
+    "optimized_msg": "તમારો MSME પ્રોફાઇલ 14+ સરકારી યોજનાઓ સાથે ઉચ્ચ સુસંગતતા દર્શાવે છે. તમારી UDYAM દસ્તાવેજ માન્યતા પૂર્ણ કરીને તમારો AI સ્કોર 18% વધારો.",
+    "needed_msg": "તમારો 5-પગલાંનો વ્યવસાયિક પ્રોફાઇલ બનાવો અને 94% ચોકસાઈ સાથે વ્યક્તિગત યોજના શોધવાનું અનલૉક કરો અને તમારી સંપૂર્ણ ભંડોળની સંભાવના જુઓ.",
+    "priority_high": "પ્રાથમિકતા: ઉચ્ચ",
+    "action_required": "ક્રિયા જરૂરી છે",
+    "profile_active": "પ્રોફાઇલ સક્રિય",
+    "profile_incomplete": "પ્રોફાઇલ અપૂર્ણ",
+    "profile_incomplete_msg": "વ્યક્તિગત યોજના મેચિંગ માટે તમારી વ્યવસાયિક પ્રોફાઇલ પૂર્ણ કરો.",
+    "complete_profile": "પ્રોફાઇલ પૂર્ણ કરો",
+    "stats": {
+      "active_schemes": "સક્રિય યોજનાઓ",
+      "total_investment": "કુલ રોકાણ",
+      "docs_verified": "ચકાસવામાં આવેલ દસ્તાવેજો",
+      "ai_sessions": "AI સત્રો"
+    }
+  },
+  "discovery": {
+    "title": "આ યોજના શોધો",
+    "subtitle": "383+ યોજનાઓમાં AI મેચિંગ",
+    "search_placeholder": "યોજનાઓ, ક્ષેત્રો અથવા કીવર્ડ્સ શોધો...",
+    "filter_intel": "ઇન્ટેલિજન્સ ફિલ્ટર લાગુ કરો",
+    "apply_filters": "ફિલ્ટર્સ લાગુ કરો",
+    "showing": "પોખાતા {{count}} માંથી {{total}} યોજનાઓ",
+    "no_matches": "તમારા વર્તમાન ફિલ્ટર્સ સાથે કોઈ યોજના મેળ ખાતી નથી",
+    "analyzing": "વિશ્લેષણ કરી રહ્યા છીએ...",
+    "primary_sector": "પ્રાથમિક ક્ષેત્ર",
+    "state_region": "રાજ્ય / પ્રદેશ",
+    "entity_type": "સંસ્થાનો પ્રકાર",
+    "best_match": "શ્રેષ્ઠ મેચ",
+    "deadline": "તારીખ મર્યાદા"
+  },
+  "profile": {
+    "title": "તમારી બુદ્ધિ પ્રોફાઇલ બનાવો",
+    "subtitle": "આ ડેટા તમારી વ્યક્તિગત યોજના શોધક એન્જિનને સપોર્ટ કરે છે.",
+    "phase_label": "ફેઝ 2 — બિઝનેસ ઇન્ટેલિજન્સ પ્રોફાઇલ",
+    "step_label": "પગલું {{current}} માંથી {{total}}: {{title}}",
+    "continue": "ચાલુ રાખો",
+    "submit": "સબમિટ કરો અને યોજનાઓ શોધો",
+    "saving": "સાચવી રહ્યા છે...",
+    "skip": "હાલ માટે પ્રોફાઇલ સેટઅપ છોડી દો (મર્યાદિત મેચિંગ).",
+    "back": "પાછુ જાઓ",
+    "required_error": "{{field}} જરૂરી છે."
+  },
+  "modal": {
+    "overview": "વ્યૂહાત્મક ઝાંખી",
+    "eligibility": "મુખ્ય પાત્રાધિકાર",
+    "intel_advisor": "સ્કીમ વિગત સહાયક",
+    "grounded_tag": "BGE-M3 આધારિત",
+    "official_portal": "સત્તાવાર પોર્ટલ પર ઍક્સેસ કરો",
+    "chat_placeholder": "પગલાં, દસ્તાવેજો અથવા પાત્રાધિકાર વિશે પૂછો...",
+    "quick_chips": {
+      "eligibility": "પાત્રાધિકાર",
+      "documents": "જરૂરી દસ્તાવેજો",
+      "apply": "કેવી રીતે અરજી કરવી",
+      "benefits": "લાભો"
+    }
+  },
+  "assistant": {
+    "title": "AI સલાહકાર",
+    "subtitle": "RAG-સંચાલિત વાતચીત બુદ્ધિ",
+    "welcome": "હેલો! હું KARIOS ઇન્ટેલિજન્સ છું.",
+    "error_sync": "મને સિંક્રોનાઇઝેશન ભૂલ આવી છે. કૃપા કરીને ટૂંક સમયમાં ફરી પ્રયાસ કરો."
+  },
+  "schemes": {
+    "SCH-151417f0": {
+      "name": "Credit Guarantee Fund Trust for Micro & Small Enterprises (CGTMSE)"
+    },
+    "SCH-93680a06": {
+      "name": "PM MUDRA Yojana — Shishu Category"
+    },
+    "SCH-5494feec": {
+      "name": "PM MUDRA Yojana — Kishor Category"
+    },
+    "SCH-34d48e37": {
+      "name": "PM MUDRA Yojana — Tarun Category"
+    },
+    "SCH-ec37db03": {
+      "name": "PM MUDRA Yojana — Tarun Plus Category"
+    },
+    "SCH-35eec055": {
+      "name": "Startup India Seed Fund Scheme (SISFS)"
+    },
+    "SCH-835a5bbf": {
+      "name": "Credit Linked Capital Subsidy Scheme (CLCSS)"
+    },
+    "SCH-0810dd7a": {
+      "name": "SIDBI Fund of Funds — Startup India"
+    },
+    "SCH-f0a86f3d": {
+      "name": "Atal Innovation Mission — Atal Incubation Centres (AIC)"
+    },
+    "SCH-782aa87b": {
+      "name": "APEDA Agricultural Export Promotion Scheme"
+    },
+    "SCH-f7144275": {
+      "name": "NABARD Dairy Entrepreneurship Dev Scheme (DEDS)"
+    },
+    "SCH-6c69a4b4": {
+      "name": "Technology Upgradation Fund Scheme — Textiles (TUFS)"
+    },
+    "SCH-541e0110": {
+      "name": "MeitY TIDE 2.0 — Technology Incubation for Entrepreneurs"
+    },
+    "SCH-9a8972bf": {
+      "name": "National SC-ST Hub — Special CLCSS"
+    },
+    "SCH-2d7e3def": {
+      "name": "PM Employment Generation Programme (PMEGP)"
+    },
+    "SCH-92fab7bc": {
+      "name": "SFURTI — Fund for Regeneration of Traditional Industries"
+    },
+    "SCH-48af499a": {
+      "name": "ZED Certification — Zero Defect Zero Effect"
+    },
+    "SCH-8d8f7b51": {
+      "name": "GeM Portal — Government e-Marketplace Registration"
+    },
+    "SCH-8942537d": {
+      "name": "RAMP — Raising and Accelerating MSME Performance"
+    },
+    "SCH-78813d5e": {
+      "name": "Emergency Credit Line Guarantee Scheme (ECLGS)"
+    },
+    "SCH-be8a2c43": {
+      "name": "Standup India — SC/ST & Women Entrepreneurs"
+    },
+    "SCH-e011479f": {
+      "name": "Udyam Registration — MSME Registration Portal"
+    },
+    "SCH-ae60f368": {
+      "name": "PLI Scheme — Textiles (MMF & Technical Textiles)"
+    },
+    "SCH-87b23e92": {
+      "name": "PLI Scheme — Food Processing Industries"
+    },
+    "SCH-f321f084": {
+      "name": "PLI Scheme — Pharmaceuticals"
+    },
+    "SCH-cb0b47ad": {
+      "name": "PLI Scheme — Electronics / IT Hardware"
+    },
+    "SCH-eb20a85a": {
+      "name": "DST-NIDHI — National Initiative Developing & Harnessing Innovations"
+    },
+    "SCH-6c9da5a9": {
+      "name": "BIRAC BIG — Biotechnology Ignition Grant"
+    },
+    "SCH-3add3dad": {
+      "name": "BIRAC BIPP — Biotechnology Industry Partnership Programme"
+    },
+    "SCH-1c34ae7f": {
+      "name": "ASPIRE — Innovation Rural Industry & Entrepreneurship"
+    },
+    "SCH-f57e08db": {
+      "name": "PM Vishwakarma — Traditional Artisan Scheme"
+    },
+    "SCH-75e3fb42": {
+      "name": "PM SVANidhi — Street Vendor Micro-Credit Scheme"
+    },
+    "SCH-6740dae4": {
+      "name": "NSIC Raw Material Assistance Scheme"
+    },
+    "SCH-a352f81e": {
+      "name": "KVIC Honey Mission"
+    },
+    "SCH-3c210562": {
+      "name": "MSME Competitive Lean Manufacturing Scheme"
+    },
+    "SCH-b0702352": {
+      "name": "DST SEED — Science for Equity Empowerment & Development"
+    },
+    "SCH-a10b9d10": {
+      "name": "EXIM Bank Lending Programme for Exporters"
+    },
+    "SCH-f963d7b9": {
+      "name": "NHB Horticulture Development Capital Subsidy"
+    },
+    "SCH-67a96ff0": {
+      "name": "PM Kisan Sampada Yojana (PMKSY)"
+    },
+    "SCH-8813a2d2": {
+      "name": "PM Formalization of Micro Food Enterprises (PMFME)"
+    },
+    "SCH-3e8f65c3": {
+      "name": "PM PMEGP — KVIC Channel"
+    },
+    "SCH-fc99d0d3": {
+      "name": "Standup India — Stand Up Mitra Portal"
+    },
+    "SCH-5561f2ff": {
+      "name": "IPR Scheme — Patent & Trademark Fee Rebate for MSMEs"
+    },
+    "SCH-63e53ec0": {
+      "name": "Startup India Tax Exemption under Section 80-IAC"
+    },
+    "SCH-bec1f249": {
+      "name": "Startup India Angel Tax Exemption (Section 56 (2)(viib))"
+    },
+    "SCH-0da2e5c6": {
+      "name": "RuPay Credit Card for MSMEs on UPI"
+    },
+    "SCH-3e0d1d04": {
+      "name": "NSIC Single Point Registration Scheme"
+    },
+    "SCH-e3712f53": {
+      "name": "National Minorities Dev & Finance Corporation (NMDFC)"
+    },
+    "SCH-a52e7d79": {
+      "name": "PM PMKVY 4.0 — Pradhan Mantri Kaushal Vikas Yojana"
+    },
+    "SCH-da3f8228": {
+      "name": "PM Vishwakarma — Artisan Credit Card"
+    },
+    "SCH-b8fcd464": {
+      "name": "Udyam Assist Platform — Informal MSME Formalisation"
+    },
+    "SCH-7c38df5c": {
+      "name": "MSME Samadhaan — Delayed Payment Resolution"
+    },
+    "SCH-8aa63f14": {
+      "name": "SIDBI SMILE — Soft Loan for Micro and Small Enterprises"
+    },
+    "SCH-0a9f2a0e": {
+      "name": "SIDBI Make in India MSME Loan — 59-Minute Approval"
+    },
+    "SCH-ff76d27e": {
+      "name": "National Handloom Development Programme (NHDP)"
+    },
+    "SCH-d8250d36": {
+      "name": "PM SVANidhi — Street Vendor Digital Loans"
+    },
+    "SCH-1cccaf80": {
+      "name": "NABARD Fishery & Aquaculture Development Fund"
+    },
+    "SCH-49b14ec5": {
+      "name": "PLI Scheme — Specialty Chemicals & White Goods"
+    },
+    "SCH-854d693e": {
+      "name": "MSME Innovative — Incubation & Product Development"
+    },
+    "SCH-1f304173": {
+      "name": "ECGC NIRVIK — Niryat Rin Vikas Yojana"
+    },
+    "SCH-7a65b32e": {
+      "name": "Kisan Credit Card — Agri-Enterprise Credit"
+    },
+    "SCH-d082acda": {
+      "name": "NSIC Micro Enterprises Loan Programme"
+    },
+    "SCH-0b31bd06": {
+      "name": "PLI Scheme — Drones"
+    },
+    "SCH-8ea8d10f": {
+      "name": "DST PRAYAS — Promoting & Accelerating Startups"
+    },
+    "SCH-141ee8a6": {
+      "name": "Integrated Cold Chain & Value Addition Infrastructure"
+    },
+    "SCH-f7b5b061": {
+      "name": "NITI Aayog AIM Atal Tinkering Labs"
+    },
+    "SCH-f1fd1df2": {
+      "name": "EXIM Bank Export Project Finance"
+    },
+    "SCH-58cb9d77": {
+      "name": "Startup India International Market Access"
+    },
+    "SCH-ded17aed": {
+      "name": "KVIC Prime Minister Employment Generation (PMEGP) — Artisan"
+    },
+    "SCH-d0330b46": {
+      "name": "NABARD Agri Market Infrastructure Fund (AMIF)"
+    },
+    "SCH-22f040e0": {
+      "name": "MCA21 — Startup Fast-Track Winding Up"
+    },
+    "SCH-190ab326": {
+      "name": "MSME Technology Centre Services"
+    },
+    "SCH-0e2e2f83": {
+      "name": "PM MUDRA — Mahila Udyam Nidhi Scheme"
+    },
+    "SCH-82c7f0c5": {
+      "name": "Pradhan Mantri Jan Aushadhi Kendra Franchise"
+    },
+    "SCH-a6c4ec88": {
+      "name": "National Tribal Finance & Dev Corp — ST Entrepreneur Loan"
+    },
+    "SCH-a16a2c64": {
+      "name": "SIDBI Venture Capital Early Stage Fund"
+    },
+    "SCH-5e9fde27": {
+      "name": "National SC-ST Hub — Market Linkage"
+    },
+    "SCH-2f8eee20": {
+      "name": "EXIM Bank MSME Overseas Investment Finance"
+    },
+    "SCH-f193bbd0": {
+      "name": "DPIIT — Startup India Hub (Mentorship)"
+    },
+    "SCH-d15d912b": {
+      "name": "SEBI SCORES — Startup Investor Grievance"
+    },
+    "SCH-bd76ef25": {
+      "name": "NEED — New Entrepreneur cum Enterprise Development Scheme"
+    },
+    "SCH-3e4f7249": {
+      "name": "TIDCO Industrial Infrastructure Development"
+    },
+    "SCH-44d0c439": {
+      "name": "SIPCOT Industrial Park Scheme"
+    },
+    "SCH-18bfda99": {
+      "name": "TN Handloom Weavers Loom Modernisation Subsidy"
+    },
+    "SCH-a44c19a8": {
+      "name": "Tamil Nadu Women Startup Fund"
+    },
+    "SCH-401d9e4e": {
+      "name": "TN Leather MSME Cluster Development"
+    },
+    "SCH-939cdb27": {
+      "name": "Tamil Nadu Solar MSME Scheme"
+    },
+    "SCH-54a7db03": {
+      "name": "TN Startup Seed Fund — StartupTN"
+    },
+    "SCH-d31fb589": {
+      "name": "Chief Minister's Entrepreneurship Award Loan Scheme"
+    },
+    "SCH-20c67f9c": {
+      "name": "TN Noon Meal Entrepreneur Scheme"
+    },
+    "SCH-05d6ee1e": {
+      "name": "TNAU Agri-Business Incubation — TABI"
+    },
+    "SCH-d0405461": {
+      "name": "TN Gems & Jewellery MSME Cluster"
+    },
+    "SCH-7ffb8d39": {
+      "name": "TN Auto Ancillary MSME Cluster — Hosur & Sriperumbudur"
+    },
+    "SCH-774bd236": {
+      "name": "TN Interest Subsidy Scheme for New Industries"
+    },
+    "SCH-33dba812": {
+      "name": "TN Textile Processing Cluster — Erode & Salem"
+    },
+    "SCH-0a6619de": {
+      "name": "TN IT Hardware & Electronics Policy Incentive"
+    },
+    "SCH-a2b6f89a": {
+      "name": "Package Scheme of Incentives (PSI 2023)"
+    },
+    "SCH-1a1c558d": {
+      "name": "Maharashtra MSME Loan — MSSDS"
+    },
+    "SCH-a9ce015d": {
+      "name": "MAVIM Women Enterprise Development Scheme"
+    },
+    "SCH-d2ed7fc4": {
+      "name": "Maharashtra Mega Food Park"
+    },
+    "SCH-897cc0a1": {
+      "name": "Maharashtra Startup Market Access Grant"
+    },
+    "SCH-b2cbe25c": {
+      "name": "Maharashtra SC/ST Startup Fund — VJNT & SBC"
+    },
+    "SCH-20fd1229": {
+      "name": "MH Agri Export Zone (AEZ) Incentives"
+    },
+    "SCH-fba5f4ee": {
+      "name": "Maharashtra Textile Policy — Synthetic & Technical"
+    },
+    "SCH-c89315eb": {
+      "name": "MIDC IT Park Plug-and-Play Infrastructure"
+    },
+    "SCH-b879297f": {
+      "name": "Maharashtra Leather Export Promotion"
+    },
+    "SCH-580b8f9e": {
+      "name": "Maharashtra Tourism MSME — Agri Tourism"
+    },
+    "SCH-c8595688": {
+      "name": "MH Fishery Cold Chain MSME Scheme"
+    },
+    "SCH-210f5e68": {
+      "name": "Udyog Ratna Award and Special Loan"
+    },
+    "SCH-ef8efb28": {
+      "name": "Maharashtra Solar Energy Policy — Rooftop for MSMEs"
+    },
+    "SCH-9bb4a105": {
+      "name": "Maharashtra IT/ITES Export Promotion Policy"
+    },
+    "SCH-4ff5f28e": {
+      "name": "Gujarat Startup Policy 2022 — iCreate Milestone Grants"
+    },
+    "SCH-c58a17ec": {
+      "name": "Gujarat Industrial Policy 2022 Capital Subsidy"
+    },
+    "SCH-d4999148": {
+      "name": "GIDC Industrial Estate Plots"
+    },
+    "SCH-5722223d": {
+      "name": "Gujarat Solar for MSMEs — Suryashakti Scheme"
+    },
+    "SCH-bba99efc": {
+      "name": "Gujarat Women MSME Entrepreneurship Scheme"
+    },
+    "SCH-ef6d2a9d": {
+      "name": "Gujarat Diamond Polishing Cluster — Surat"
+    },
+    "SCH-657c6902": {
+      "name": "Gujarat Chemical & Pharma Cluster — Vatva & Vapi"
+    },
+    "SCH-d94ef374": {
+      "name": "Gujarat Ceramic Cluster — Morbi Development"
+    },
+    "SCH-583d38c5": {
+      "name": "Gujarat Agri Export Policy Freight Subsidy"
+    },
+    "SCH-6bc763b7": {
+      "name": "GIFT City Fintech MSME Incentives"
+    },
+    "SCH-e92d0d07": {
+      "name": "Gujarat SC/ST Entrepreneurship Loan Scheme"
+    },
+    "SCH-a18bddcc": {
+      "name": "Gujarat EV Manufacturing Policy — MSME Component"
+    },
+    "SCH-00e175a2": {
+      "name": "Gujarat MSME Interest Subsidy 2023"
+    },
+    "SCH-0405d626": {
+      "name": "Gujarat Textile Park — Surat & Ahmedabad"
+    },
+    "SCH-a6484f61": {
+      "name": "Karnataka Elevate 100 — Startup Grant"
+    },
+    "SCH-d507dfbe": {
+      "name": "KSFC Soft Loan for New Entrepreneurs"
+    },
+    "SCH-d44fab70": {
+      "name": "KSIIDC Industrial Area Infrastructure"
+    },
+    "SCH-51feee57": {
+      "name": "Karnataka IT Corridor Incentive Package"
+    },
+    "SCH-de7b76ba": {
+      "name": "Karnataka Aerospace & Defence MSME Cluster"
+    },
+    "SCH-696b426a": {
+      "name": "Karnataka Silk Mission — Sericulture MSMEs"
+    },
+    "SCH-b43dcc2e": {
+      "name": "Karnataka Startup Fund of Funds"
+    },
+    "SCH-51849276": {
+      "name": "Karnataka BioCluster — Helix Biotech Park"
+    },
+    "SCH-eb96d18e": {
+      "name": "Karnataka Electronics Manufacturing Cluster — Tumkur"
+    },
+    "SCH-e513affc": {
+      "name": "Karnataka Women Entrepreneurs — KPC Scheme"
+    },
+    "SCH-23699963": {
+      "name": "Karnataka Tourism MSME — Heritage & Eco"
+    },
+    "SCH-7c0beadc": {
+      "name": "Karnataka Agri-Business MSME Capital Subsidy"
+    },
+    "SCH-4edb4b9a": {
+      "name": "Karnataka SC/ST Enterprise Loan — KSCDC"
+    },
+    "SCH-2ceeb823": {
+      "name": "Karnataka Granite & Natural Stone Cluster"
+    },
+    "SCH-408d2416": {
+      "name": "T-Hub Incubation and Acceleration Programme"
+    },
+    "SCH-4f583799": {
+      "name": "WE Hub — Women Entrepreneurs Hub Incubation"
+    },
+    "SCH-35324c60": {
+      "name": "Telangana Pharma City MSME Cluster"
+    },
+    "SCH-ef6f2c46": {
+      "name": "TASK — Telangana Academy for Skill & Knowledge"
+    },
+    "SCH-9cfbb869": {
+      "name": "Telangana MSME Policy 2022 — Capital Subsidy"
+    },
+    "SCH-c96e3260": {
+      "name": "Telangana Textile Park — Warangal"
+    },
+    "SCH-4303df13": {
+      "name": "Telangana SC/ST Startup Fund"
+    },
+    "SCH-7034663d": {
+      "name": "Telangana Agri-Food Processing MSME Scheme"
+    },
+    "SCH-04164cfb": {
+      "name": "Telangana IT Startup Policy Seed Fund"
+    },
+    "SCH-f06633fb": {
+      "name": "Telangana Women Entrepreneur Startup Programme"
+    },
+    "SCH-3f4d1bb2": {
+      "name": "Telangana Industrial Health Clinic"
+    },
+    "SCH-7e1b2784": {
+      "name": "AP MSME Policy 2020 — Interest Subvention Scheme"
+    },
+    "SCH-142d3e5a": {
+      "name": "AP Aquaculture & Fishery MSME Support"
+    },
+    "SCH-48469558": {
+      "name": "AP Innovation Society Startup Grants"
+    },
+    "SCH-841ed9d0": {
+      "name": "AP Spices Export Cluster — Guntur"
+    },
+    "SCH-82a158b0": {
+      "name": "AP Aqua Food Processing Cluster"
+    },
+    "SCH-736640d4": {
+      "name": "AP Women Startup — SHE Startups Fund"
+    },
+    "SCH-0721995c": {
+      "name": "AP Solar Rooftop MSME Scheme"
+    },
+    "SCH-95ad4a2f": {
+      "name": "AP Sunrise Sector Startup Incentives"
+    },
+    "SCH-c9b0fb79": {
+      "name": "AP Cotton Textile Policy — Guntur Cluster"
+    },
+    "SCH-7e9f3f38": {
+      "name": "AP MSME Capital Investment Subsidy"
+    },
+    "SCH-8525fefe": {
+      "name": "AP Startup Runway Programme"
+    },
+    "SCH-2fef972d": {
+      "name": "Kerala Startup Mission — LEAP Programme"
+    },
+    "SCH-aeed424d": {
+      "name": "KSIDC Term Loan for MSMEs"
+    },
+    "SCH-bda19319": {
+      "name": "Kerala Cashew Worker MSME Processing Scheme"
+    },
+    "SCH-3996d878": {
+      "name": "Kerala Tourism Homestay Development"
+    },
+    "SCH-d0a8a799": {
+      "name": "Kerala MSME Technology Upgradation Grant"
+    },
+    "SCH-841c25e7": {
+      "name": "Kerala SC/ST Enterprise Dev — KSCDC"
+    },
+    "SCH-a6e6d142": {
+      "name": "Kerala Women Agri-Food Entrepreneur — KAFPB"
+    },
+    "SCH-3c0678de": {
+      "name": "Kerala Coconut Development Board MSME"
+    },
+    "SCH-b65c3ff5": {
+      "name": "Kerala Pharma Bio-Cluster — KINFRA Kalamassery"
+    },
+    "SCH-dc925145": {
+      "name": "Technopark & Infopark Startup Incubation"
+    },
+    "SCH-7d788bb4": {
+      "name": "Kerala Startup Equity Support — KSIDC Venture"
+    },
+    "SCH-554c0055": {
+      "name": "West Bengal Shilpa Sathi Investment Facilitation"
+    },
+    "SCH-515bd11e": {
+      "name": "WB Leather Hub MSME Cluster — Kolkata"
+    },
+    "SCH-2ad6b14e": {
+      "name": "WB Handloom & Handicraft Development Subsidy"
+    },
+    "SCH-f6b36cfa": {
+      "name": "WB Startup Policy — Bengal Silicon Valley Hub"
+    },
+    "SCH-9b0c7998": {
+      "name": "WB Tea Agri-Processing MSME Scheme"
+    },
+    "SCH-b229daf2": {
+      "name": "WB Jute Diversification Scheme"
+    },
+    "SCH-43fff029": {
+      "name": "WB Women MSME — Anandadhara SHG Credit"
+    },
+    "SCH-e25331b3": {
+      "name": "WB SC/ST Enterprise Loan — WBSCSTDFC"
+    },
+    "SCH-a3a46ce8": {
+      "name": "WB Solar Rooftop MSME Scheme"
+    },
+    "SCH-6d8deb7c": {
+      "name": "WB Food Processing Park Grant"
+    },
+    "SCH-7b9d38ee": {
+      "name": "WB MSME Competitiveness Scheme"
+    },
+    "SCH-1a51a19a": {
+      "name": "Rajasthan RIPS 2022 — Investment Promotion Scheme"
+    },
+    "SCH-d722b35f": {
+      "name": "Rajasthan Handicraft & Artisan Subsidy"
+    },
+    "SCH-95f138b9": {
+      "name": "Rajasthan Solar Energy MSME Scheme"
+    },
+    "SCH-b4f8616f": {
+      "name": "Rajasthan iStart Startup Seed Fund"
+    },
+    "SCH-7819636f": {
+      "name": "Rajasthan Marble & Stone MSME Cluster"
+    },
+    "SCH-20daaa10": {
+      "name": "Rajasthan Women Entrepreneur RSRLM Loan"
+    },
+    "SCH-b0df9af4": {
+      "name": "Rajasthan SC/ST Enterprise Concessional Loan"
+    },
+    "SCH-4e0fc46f": {
+      "name": "Rajasthan Denim Textile Hub — Bhilwara"
+    },
+    "SCH-33ee6dde": {
+      "name": "Rajasthan Agri Export Freight Subsidy"
+    },
+    "SCH-e7f6f3b9": {
+      "name": "Rajasthan Tourism MSME Heritage & Adventure"
+    },
+    "SCH-b25fb8c1": {
+      "name": "Rajasthan MSME Interest Subsidy Scheme"
+    },
+    "SCH-0ba6981a": {
+      "name": "UP ODOP — One District One Product Scheme"
+    },
+    "SCH-eb003af1": {
+      "name": "UP Startup Policy 2023 Seed Fund"
+    },
+    "SCH-42444efc": {
+      "name": "UP Leather Park — Agra & Kanpur MSME"
+    },
+    "SCH-8e58c376": {
+      "name": "UP Brassware Cluster — Moradabad"
+    },
+    "SCH-6aa13765": {
+      "name": "UP Carpet Cluster — Bhadohi & Mirzapur"
+    },
+    "SCH-f81dc060": {
+      "name": "UP Banarasi Silk Weaving Cluster"
+    },
+    "SCH-85818f28": {
+      "name": "UP Women Entrepreneur Startup Scheme"
+    },
+    "SCH-30a7c2a8": {
+      "name": "UP SC/ST Startup — Samajwadi Enterprise Fund"
+    },
+    "SCH-04dfcd92": {
+      "name": "UP Solar MSME Scheme — UPNEDA"
+    },
+    "SCH-e8313dc5": {
+      "name": "UP Electronics Manufacturing Cluster — UPEIDA"
+    },
+    "SCH-ca65c4d8": {
+      "name": "UP Agri-Food Processing Cold Chain Cluster"
+    },
+    "SCH-4886d71a": {
+      "name": "UP Defence Manufacturing Corridor MSME"
+    },
+    "SCH-509a829c": {
+      "name": "UP Aligarh Lock Cluster MSME Scheme"
+    },
+    "SCH-9caf7ca3": {
+      "name": "MP Startup Policy 2022 — MAPIT Seed Fund"
+    },
+    "SCH-ec6f65a2": {
+      "name": "MP Textile Park — Pithampur & Indore"
+    },
+    "SCH-32abc114": {
+      "name": "MP MSME Interest Subsidy Scheme"
+    },
+    "SCH-0834dc39": {
+      "name": "MP Industrial Investment Promotion Policy 2023"
+    },
+    "SCH-3673037e": {
+      "name": "MP Agri-Food Processing Capital Subsidy"
+    },
+    "SCH-5b71bce9": {
+      "name": "MP Women Enterprise Loan Scheme"
+    },
+    "SCH-b2e6557a": {
+      "name": "MP SC/ST Concessional Enterprise Loan"
+    },
+    "SCH-ec6d97e3": {
+      "name": "MP Solar MSME Rooftop Scheme"
+    },
+    "SCH-687078f8": {
+      "name": "MP Tourism MSME — Heritage Circuit"
+    },
+    "SCH-fb12eaee": {
+      "name": "MP Tribal Artisan MSME Scheme"
+    },
+    "SCH-34a52fba": {
+      "name": "Punjab Startup Policy Seed Fund — IIT Ropar"
+    },
+    "SCH-dd9df9ef": {
+      "name": "Punjab Ludhiana Knitwear Hosiery Cluster"
+    },
+    "SCH-5864a526": {
+      "name": "Punjab Women Entrepreneurship Programme"
+    },
+    "SCH-c1091a9a": {
+      "name": "Punjab SC/ST Enterprise Concessional Loan"
+    },
+    "SCH-f5a83ec9": {
+      "name": "Punjab Jalandhar Sports Goods Cluster"
+    },
+    "SCH-849d8f10": {
+      "name": "Punjab Ludhiana Bicycle Manufacturing Cluster"
+    },
+    "SCH-a28be1ec": {
+      "name": "Punjab MSME Interest Subsidy Scheme"
+    },
+    "SCH-3a8b26bf": {
+      "name": "Punjab Solar PEDA Rooftop Scheme"
+    },
+    "SCH-4b9535f4": {
+      "name": "Punjab Phagwara Footwear Cluster Scheme"
+    },
+    "SCH-af112203": {
+      "name": "Punjab Tourism MSME — Rural Homestay"
+    },
+    "SCH-00dfda9f": {
+      "name": "Haryana Startup Policy Seed Fund — StartUp Haryana"
+    },
+    "SCH-256b9406": {
+      "name": "Haryana Faridabad Auto Ancillary Cluster"
+    },
+    "SCH-0e105ebb": {
+      "name": "Haryana Women MSME Loan Scheme"
+    },
+    "SCH-25fa0dae": {
+      "name": "Haryana Enterprise Promotion Policy 2020"
+    },
+    "SCH-d188664b": {
+      "name": "Haryana SC/ST Loan — HASC&SBC Corp"
+    },
+    "SCH-f5f5f5d9": {
+      "name": "Haryana Ambala Scientific Instruments Cluster"
+    },
+    "SCH-115d925e": {
+      "name": "Haryana Agriculture MSME Cold Chain Grant"
+    },
+    "SCH-5c8656b1": {
+      "name": "Haryana Solar HAREDA MSME Scheme"
+    },
+    "SCH-d7708d2d": {
+      "name": "Haryana Panipat Textile Processing Cluster"
+    },
+    "SCH-3e1ed256": {
+      "name": "Haryana Tourism MSME Scheme"
+    },
+    "SCH-5b83e0d7": {
+      "name": "Odisha MSME Development Policy 2022"
+    },
+    "SCH-f9c5b069": {
+      "name": "Odisha Steel Downstream MSME Cluster"
+    },
+    "SCH-b5eb022e": {
+      "name": "Odisha Fishery MSME Coastal Scheme"
+    },
+    "SCH-5772f0c4": {
+      "name": "Startup Odisha — Seed Fund Programme"
+    },
+    "SCH-981aeb26": {
+      "name": "Odisha Women SHG Enterprise Scheme"
+    },
+    "SCH-77dfdc0b": {
+      "name": "Odisha Tribal Pattachitra & Craft MSME"
+    },
+    "SCH-78b7dc91": {
+      "name": "Odisha MSME Solar Scheme"
+    },
+    "SCH-0971c453": {
+      "name": "Odisha SC/ST Enterprise Development Fund"
+    },
+    "SCH-391e97eb": {
+      "name": "Odisha Tourism MSME — Eco & Heritage"
+    },
+    "SCH-f1e047dd": {
+      "name": "Bihar Industrial Investment Promotion Policy (BIIPP)"
+    },
+    "SCH-43e9f075": {
+      "name": "Bihar Silk Promotion — Bhagalpur"
+    },
+    "SCH-87e8faa2": {
+      "name": "Bihar Startup Policy — Chief Minister Startup Fund"
+    },
+    "SCH-ab219026": {
+      "name": "Bihar Mukhyamantri Udyami Yojana"
+    },
+    "SCH-a1ccef73": {
+      "name": "Bihar Agriculture — Litchi & Makhana Processing"
+    },
+    "SCH-b8639683": {
+      "name": "Bihar Women Enterprise Loan — BWDC"
+    },
+    "SCH-77f8c2a6": {
+      "name": "Bihar Solar BREDA MSME Scheme"
+    },
+    "SCH-a58a3639": {
+      "name": "Bihar MSME Cluster Dev — Madhubani Painting"
+    },
+    "SCH-91f49777": {
+      "name": "Bihar Tourism MSME — Buddhist Circuit"
+    },
+    "SCH-426520a1": {
+      "name": "Jharkhand Industrial Investment Policy — JIIPP"
+    },
+    "SCH-4fdd2ae7": {
+      "name": "Jharkhand Tribal Artisan Support Scheme"
+    },
+    "SCH-ce606ebc": {
+      "name": "Jharkhand Startup Policy Seed Fund"
+    },
+    "SCH-4439eca7": {
+      "name": "Jharkhand Women MSME Interest-Free Loan"
+    },
+    "SCH-176cd842": {
+      "name": "Jharkhand Mineral Downstream MSME"
+    },
+    "SCH-912ceba3": {
+      "name": "Jharkhand Solar MSME Scheme"
+    },
+    "SCH-feec6aaf": {
+      "name": "Jharkhand Tourism MSME — Eco & Adventure"
+    },
+    "SCH-16e0cbda": {
+      "name": "Chhattisgarh Industrial Policy 2019–24"
+    },
+    "SCH-c624b28c": {
+      "name": "CG Agri-Processing MSME Capital Subsidy"
+    },
+    "SCH-f2a4f7e5": {
+      "name": "CG Startup Policy Seed Fund"
+    },
+    "SCH-376cb48e": {
+      "name": "CG Tribal MSME Enterprise Fund"
+    },
+    "SCH-499adbad": {
+      "name": "CG Women Enterprise Concessional Loan"
+    },
+    "SCH-6e03c93a": {
+      "name": "CG Bastar Tribal Craft MSME Scheme"
+    },
+    "SCH-e53cacc4": {
+      "name": "CG Solar MSME Scheme — CREDA"
+    },
+    "SCH-c61a1f4f": {
+      "name": "Assam Industrial & Investment Policy — NE Benefits"
+    },
+    "SCH-98264cd2": {
+      "name": "Assam Tea Processing Small Industry"
+    },
+    "SCH-be1a7673": {
+      "name": "Assam Bamboo Mission MSME Enterprise"
+    },
+    "SCH-d86f96df": {
+      "name": "Assam Startup Valley Seed Grant"
+    },
+    "SCH-debe458c": {
+      "name": "Assam Muga & Eri Silk Handloom Scheme"
+    },
+    "SCH-826c2c46": {
+      "name": "Assam Women Enterprise — ASRLM Credit"
+    },
+    "SCH-30810b06": {
+      "name": "Assam Solar AEDA MSME Scheme"
+    },
+    "SCH-f75378f3": {
+      "name": "Assam Tourism MSME — Tea Garden Homestay"
+    },
+    "SCH-a144e2eb": {
+      "name": "HP Industrial Policy Capital Subsidy for Hills"
+    },
+    "SCH-460acdb7": {
+      "name": "HP Horticulture Processing MSME Scheme"
+    },
+    "SCH-c5fa5801": {
+      "name": "HP Startup Policy Seed Fund"
+    },
+    "SCH-43034bd4": {
+      "name": "HP Women MSME Scheme"
+    },
+    "SCH-9d12d2d2": {
+      "name": "HP Herbal & Medicinal Plants Enterprise"
+    },
+    "SCH-31a92754": {
+      "name": "HP Tourism MSME Eco & Adventure"
+    },
+    "SCH-0c798e50": {
+      "name": "HP Wool & Pashmina Weaving Cluster"
+    },
+    "SCH-73bdb1ab": {
+      "name": "Uttarakhand Industrial Policy 2022 — SIIDCUL"
+    },
+    "SCH-b7b2ccd4": {
+      "name": "UK Herbal & Medicinal Plants MSME"
+    },
+    "SCH-610ac01c": {
+      "name": "UK Mountain Tourism — Homestay Scheme"
+    },
+    "SCH-36f342cb": {
+      "name": "UK Startup Seed Fund — SIIDCUL Incubation"
+    },
+    "SCH-53438e31": {
+      "name": "UK Women MSME Loan — Mukhyamantri Mahila"
+    },
+    "SCH-57b286b0": {
+      "name": "UK Himalayan Handicraft Cluster Scheme"
+    },
+    "SCH-df8d29bd": {
+      "name": "UK Solar MSME — UREDA Scheme"
+    },
+    "SCH-e9c0ed7a": {
+      "name": "Goa Industrial Policy 2021 MSME Incentives"
+    },
+    "SCH-80a400c3": {
+      "name": "Goa Startup Hub Seed Grant"
+    },
+    "SCH-09c0be35": {
+      "name": "Goa Beach Shack Tourism Licence Scheme"
+    },
+    "SCH-7316152d": {
+      "name": "Goa Women Enterprise Loan"
+    },
+    "SCH-eda0d3f1": {
+      "name": "Goa Cashew & Food Processing Scheme"
+    },
+    "SCH-e499eeac": {
+      "name": "Goa IT Policy — STPI Incentives"
+    },
+    "SCH-10b4fd82": {
+      "name": "Goa Tourism Eco-Resort MSME Scheme"
+    },
+    "SCH-4dea23c3": {
+      "name": "Meghalaya Industrial Policy — NE Special Package"
+    },
+    "SCH-5c2e312d": {
+      "name": "Meghalaya Honey & Floriculture MSME"
+    },
+    "SCH-c1912495": {
+      "name": "Meghalaya Startup Scheme — MSME Support"
+    },
+    "SCH-7485f89f": {
+      "name": "Meghalaya Women SHG Enterprise Loan"
+    },
+    "SCH-ab8e80f4": {
+      "name": "Meghalaya Tourism MSME — Living Root Bridge"
+    },
+    "SCH-b832207c": {
+      "name": "Tripura Industrial Investment Promotion Policy"
+    },
+    "SCH-1994da40": {
+      "name": "Tripura Bamboo & Cane Craft MSME"
+    },
+    "SCH-7e4d8cce": {
+      "name": "Tripura Rubber Processing MSME"
+    },
+    "SCH-548f70fe": {
+      "name": "Tripura Startup Scheme Seed Fund"
+    },
+    "SCH-a41396ef": {
+      "name": "Manipur Industrial Policy 2021 — NE Benefits"
+    },
+    "SCH-c4d7e1be": {
+      "name": "Manipur Handloom Phanek & Moirangphee Scheme"
+    },
+    "SCH-9d476dfc": {
+      "name": "Manipur Startup Scheme Seed Fund"
+    },
+    "SCH-b7f8978c": {
+      "name": "Manipur Organic Farming MSME"
+    },
+    "SCH-6a95b974": {
+      "name": "Nagaland Industrial Policy — NE MSME Incentive"
+    },
+    "SCH-93654ed8": {
+      "name": "Nagaland Hornbill Tribal Craft & Tourism MSME"
+    },
+    "SCH-bd9a0ec1": {
+      "name": "Nagaland Startup Innovation Scheme"
+    },
+    "SCH-fcdff5d7": {
+      "name": "Nagaland Women SHG Enterprise Loan"
+    },
+    "SCH-7e7e9a5d": {
+      "name": "Mizoram Industrial Policy — NE Special Package"
+    },
+    "SCH-ed4d38e1": {
+      "name": "Mizoram Bamboo & Cane Craft Enterprise"
+    },
+    "SCH-9a9fca04": {
+      "name": "Mizoram Startup Seed Fund"
+    },
+    "SCH-326721ab": {
+      "name": "Mizoram Tourism MSME — Eco-Lodge Scheme"
+    },
+    "SCH-d126bf0a": {
+      "name": "Arunachal Pradesh Industrial Investment Policy"
+    },
+    "SCH-9758e4dc": {
+      "name": "Arunachal Organic Farming Enterprise"
+    },
+    "SCH-685d4546": {
+      "name": "Arunachal Mountain Tourism Homestay MSME"
+    },
+    "SCH-335ae1a8": {
+      "name": "Arunachal Handloom Craft MSME"
+    },
+    "SCH-e7263fde": {
+      "name": "Sikkim Industrial Policy 2019 — Hill Enterprise"
+    },
+    "SCH-448dc220": {
+      "name": "Sikkim Organic Enterprise Grant"
+    },
+    "SCH-17122361": {
+      "name": "Sikkim Startup Innovation Fund"
+    },
+    "SCH-bc1e16ea": {
+      "name": "Sikkim Tourism MSME — Eco-Tourism"
+    },
+    "SCH-b09b4d29": {
+      "name": "Delhi DSIDC Industrial Estate Scheme"
+    },
+    "SCH-716a3ddb": {
+      "name": "Delhi Startup Policy 2021 — Seed Fund"
+    },
+    "SCH-376f790c": {
+      "name": "Delhi Women Startup Fund"
+    },
+    "SCH-d0a28541": {
+      "name": "Delhi MSME Credit Guarantee Scheme"
+    },
+    "SCH-34adda13": {
+      "name": "Delhi SC/ST Enterprise Concessional Loan"
+    },
+    "SCH-bc896806": {
+      "name": "Delhi e-Rickshaw MSME Scheme"
+    },
+    "SCH-798a0bc0": {
+      "name": "J&K Industrial Policy 2021–30 — New Industrial Dev Scheme"
+    },
+    "SCH-6c9bd184": {
+      "name": "J&K Handicraft & Handloom Dev Corporation"
+    },
+    "SCH-1d94c83a": {
+      "name": "J&K Startup Policy Seed Fund"
+    },
+    "SCH-d4879637": {
+      "name": "J&K Women Enterprise Concessional Loan"
+    },
+    "SCH-aff44c93": {
+      "name": "J&K Horticulture Processing MSME"
+    },
+    "SCH-23cede4c": {
+      "name": "Ladakh MSME Development Special Scheme"
+    },
+    "SCH-2258295a": {
+      "name": "Ladakh Mountain Tourism Homestay MSME"
+    },
+    "SCH-3d294f3a": {
+      "name": "Ladakh Handicraft & Pashmina Scheme"
+    },
+    "SCH-2739cc25": {
+      "name": "Chandigarh Startup & Innovation Seed Fund"
+    },
+    "SCH-beac3c09": {
+      "name": "Chandigarh Women MSME Enterprise Scheme"
+    },
+    "SCH-1af75482": {
+      "name": "Chandigarh MSME Industrial Area Scheme"
+    },
+    "SCH-0c103f30": {
+      "name": "Puducherry PIPDIC Industrial Estate"
+    },
+    "SCH-9ad326a6": {
+      "name": "Puducherry Women Entrepreneur MSME Grant"
+    },
+    "SCH-e14879cb": {
+      "name": "Puducherry Tourism Boutique & Restaurant MSME"
+    },
+    "SCH-2b1a5614": {
+      "name": "Dadra & Nagar Haveli MSME Investment Scheme"
+    },
+    "SCH-41113e15": {
+      "name": "DNH Women Enterprise Concessional Loan"
+    },
+    "SCH-e584d086": {
+      "name": "Andaman & Nicobar Fishery MSME Scheme"
+    },
+    "SCH-a2386486": {
+      "name": "Andaman Eco-Tourism MSME Scheme"
+    },
+    "SCH-443c674f": {
+      "name": "Lakshadweep Coconut Products MSME Scheme"
+    },
+    "SCH-ff6ca321": {
+      "name": "Lakshadweep Tuna Fishery MSME"
+    },
+    "SCH-4065bb00": {
+      "name": "SBI SME Smart Score Loan"
+    },
+    "SCH-566f2506": {
+      "name": "SBI MSME Sahaj — Digital Business Loan"
+    },
+    "SCH-cc2c98a6": {
+      "name": "SBI Mudra Loans — All 3 Categories"
+    },
+    "SCH-ca014e89": {
+      "name": "HDFC Bank Business Growth Loan"
+    },
+    "SCH-bb6adc67": {
+      "name": "HDFC Bank Smart-Up Startup Banking"
+    },
+    "SCH-9af67e10": {
+      "name": "ICICI Bank iStartup Banking Suite"
+    },
+    "SCH-eb9e2479": {
+      "name": "ICICI Bank Business Installment Loan"
+    },
+    "SCH-4f683b8e": {
+      "name": "Axis Bank MSME Business Loan"
+    },
+    "SCH-3c2dea01": {
+      "name": "Canara Bank MSME CGTMSE Loans"
+    },
+    "SCH-2b545351": {
+      "name": "Bank of Baroda MSME Working Capital"
+    },
+    "SCH-a2b52ad9": {
+      "name": "T-Hub Foundation Startup Accelerator"
+    },
+    "SCH-08e6dc15": {
+      "name": "NSRCEL IIM Bangalore Startup Incubation"
+    },
+    "SCH-56730d5a": {
+      "name": "SINE IIT Bombay Technology Incubation"
+    },
+    "SCH-8aacd27c": {
+      "name": "CIIE IIM Ahmedabad Bharat Inclusion Initiative"
+    },
+    "SCH-8b96ce25": {
+      "name": "NASSCOM 10000 Startups Programme"
+    },
+    "SCH-45c422f4": {
+      "name": "Microsoft Founders Hub — Azure Credits"
+    },
+    "SCH-bcc80b57": {
+      "name": "Google for Startups — Cloud Programme India"
+    },
+    "SCH-ef11c474": {
+      "name": "Amazon Launchpad India MSME Programme"
+    },
+    "SCH-1d5bec33": {
+      "name": "Flipkart Samarth — Artisan & MSME Programme"
+    },
+    "SCH-c9c90471": {
+      "name": "Accel Atoms India Pre-seed Programme"
+    },
+    "SCH-0decd217": {
+      "name": "Peak XV Partners Spark — Women Founders"
+    },
+    "SCH-ab8bbb1d": {
+      "name": "Elevation Capital Early Stage Fund"
+    },
+    "SCH-c535b7ad": {
+      "name": "CII SIDBI SMERA MSME Rating Subsidy"
+    },
+    "SCH-cb1204e5": {
+      "name": "FICCI FLO Women Startup & Enterprise Fund"
+    },
+    "SCH-4fc3ff7d": {
+      "name": "Kotak Mahindra Bank MSME Business Loan"
+    },
+    "SCH-726a0136": {
+      "name": "Yes Bank MSME Growth Working Capital"
+    },
+    "SCH-776f6be2": {
+      "name": "IndusInd Bank MSME Cash Credit Facility"
+    },
+    "SCH-1e104986": {
+      "name": "Reliance Foundation Rural Business Hub"
+    },
+    "SCH-0878a1e1": {
+      "name": "Tata Trusts Social Enterprise Challenge"
+    },
+    "SCH-53108397": {
+      "name": "SIDBI Venture Capital Aspire Fund"
+    }
+  }
+}

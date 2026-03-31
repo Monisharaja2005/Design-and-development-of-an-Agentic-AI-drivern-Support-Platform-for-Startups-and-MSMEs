@@ -1,0 +1,38 @@
+[
+  {
+    "authority_name": "Government of India",
+    "aliases": ["govt of india", "government of india", "bharat sarkar"],
+    "domains": ["india.gov.in", "gov.in"],
+    "document_types": ["generic_certificate"]
+  },
+  {
+    "authority_name": "Goods and Services Tax Network",
+    "aliases": ["gstn", "gst", "goods and services tax"],
+    "domains": ["gst.gov.in", "services.gst.gov.in"],
+    "document_types": ["gst_certificate"]
+  },
+  {
+    "authority_name": "Central Board of Direct Taxes",
+    "aliases": ["cbdt", "income tax department", "pan services"],
+    "domains": ["incometax.gov.in", "onlineservices.nsdl.com"],
+    "document_types": ["pan_card", "pan_certificate"]
+  },
+  {
+    "authority_name": "Ministry of Micro, Small and Medium Enterprises",
+    "aliases": ["msme", "udyam", "udyam registration portal"],
+    "domains": ["udyamregistration.gov.in", "msme.gov.in"],
+    "document_types": ["udyam_certificate"]
+  },
+  {
+    "authority_name": "Ministry of Corporate Affairs",
+    "aliases": ["mca", "mca21", "corporate affairs"],
+    "domains": ["mca.gov.in"],
+    "document_types": ["cin_certificate", "incorporation_certificate"]
+  },
+  {
+    "authority_name": "Department for Promotion of Industry and Internal Trade",
+    "aliases": ["dpiit", "startup india"],
+    "domains": ["startupindia.gov.in", "dpiit.gov.in"],
+    "document_types": ["startup_recognition"]
+  }
+]

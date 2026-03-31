@@ -1,0 +1,19 @@
+{
+  "user_agent": "SchemeIntelligenceBot/0.1 (research; contact: admin@example.org)",
+  "request_timeout": 40,
+  "delay_seconds": 1.0,
+  "max_retries": 4,
+  "max_pages_per_domain": 120,
+  "max_depth": 2,
+  "allowed_content_types": ["text/html", "application/pdf"],
+  "skip_domains": [
+    "udyam.gov.in",
+    "udyamregistration.gov.in",
+    "uap.meity.gov.in"
+  ],
+  "scheme_keywords": [
+    "scheme", "subsidy", "grant", "loan", "benefit", "incentive",
+    "eligibility", "startup", "msme", "entrepreneur", "support",
+    "credit", "fund", "guarantee", "assistance"
+  ]
+}

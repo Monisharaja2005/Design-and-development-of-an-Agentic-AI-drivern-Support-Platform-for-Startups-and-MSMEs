@@ -1,0 +1,532 @@
+{
+  "common": {
+    "dashboard": "நுண்ணறிவு டாஷ்போர்டு",
+    "discovery": "திட்டக் கண்டுபிடிப்பு",
+    "validation": "ஆவண சரிபார்ப்பு",
+    "assistant": "ஏஐ ஆலோசகர்",
+    "profile": "என் சுயவிவரம்",
+    "logout": "வெளியேறு",
+    "active": "செயலில்",
+    "engine_online": "ஏஐ இயந்திரம் ஆன்லைனில்",
+    "engine_offline": "இயந்திரம் ஆஃப்லைனில்",
+    "navigation": "வழிசெலுத்தல்",
+    "shortlisted": "தேர்ந்தெடுக்கப்பட்டது",
+    "shortlist": "தேர்ந்தெடு",
+    "saved_schemes": "சேமித்த திட்டங்கள்",
+    "pro_tip": "ப்ரோ குறிப்பு",
+    "pro_subtitle": "சரிபார்க்கப்பட்ட வணிகங்களுக்கு திட்ட பொருத்தத்தில் 3 மடங்கு அதிக முன்னுரிமை கிடைக்கும்.",
+    "pro_subtitle_clean": "சரிபார்க்கப்பட்ட வணிகங்களுக்கு திட்ட பொருத்தத்தில் 3 மடங்கு அதிக முன்னுரிமை கிடைக்கும்.",
+    "grounded": "மூலோபாய நுண்ணறிவு",
+    "re_run": "மீண்டும் பகுப்பாய்வு செய்",
+    "translating": "மொழிபெயர்க்கிறது...",
+    "view_details": "விவரங்களைக் காண்க",
+    "sort": "வரிசைப்படுத்து",
+    "matches": "பொருத்தங்கள்",
+    "clear_all": "அனைத்தையும் அழி",
+    "complete": "முற்றியது"
+  },
+  "dashboard": {
+    "title": "நுண்ணறிவு டாஷ்போர்டு",
+    "subtitle": "ஏஐ ஆதரித்த மேலோட்டம்",
+    "welcome_back": "மீண்டும் வரவேற்கிறோம்",
+    "intel_summary": "ஏஐ நுண்ணறிவு சுருக்கம்",
+    "karios_score": "பொருத்த மதிப்பெண்",
+    "status_optimized": "மேம்பட்ட தகுதி கண்டறியப்பட்டது",
+    "status_needed": "முழு பொருத்த மதிப்பெண்ணுக்கு சுயவிவரம் தேவை",
+    "optimized_msg": "உங்கள் எம்.எஸ்.எம்.இ. சுயவிவரம் 14க்கும் மேற்பட்ட அரசு திட்டங்களுடன் உயர் பொருத்தத்தைக் காட்டுகிறது. உங்கள் ஏஐ மதிப்பெண்ணை உயர்த்த உத்யம் ஆவண சரிபார்ப்பை முடிக்கவும்.",
+    "needed_msg": "94% பொருத்தத் துல்லியத்துடன் தனிப்பயன் திட்டக் கண்டுபிடிப்பை திறக்க, உங்கள் 5 படி வணிக சுயவிவரத்தை உருவாக்குங்கள்.",
+    "priority_high": "முன்னுரிமை: உயர்வு",
+    "action_required": "நடவடிக்கை தேவை",
+    "profile_active": "சுயவிவரம் செயலிலுள்ளது",
+    "profile_incomplete": "சுயவிவரம் முழுமையில்லை",
+    "profile_incomplete_msg": "தனிப்பயன் திட்ட பொருத்தத்திற்காக உங்கள் வணிக சுயவிவரத்தை முடிக்கவும்.",
+    "complete_profile": "சுயவிவரத்தை முடிக்கவும்",
+    "stats": {
+      "active_schemes": "செயலில் உள்ள திட்டங்கள்",
+      "total_investment": "மொத்த முதலீடு",
+      "docs_verified": "சரிபார்க்கப்பட்ட ஆவணங்கள்",
+      "ai_sessions": "ஏஐ அமர்வுகள்"
+    }
+  },
+  "topnav": {
+    "connecting": "இணைக்கப்படுகிறது...",
+    "updates_title": "நுண்ணறிவு புதுப்பிப்புகள்",
+    "new_count": "{{count}} புதியவை",
+    "view_all": "அனைத்து செயல்பாடுகளையும் காண்க",
+    "notifications": {
+      "shortlist": "சமீபத்திய பொருத்த முடிவுகளுடன் திட்டத் தேர்வு புதுப்பிக்கப்பட்டது.",
+      "validation": "உங்கள் செயலில் உள்ள தேர்ந்தெடுத்த திட்டத்திற்கான ஆவண சரிபார்ப்பு தயாராக உள்ளது.",
+      "profile": "உங்கள் சுயவிவர சிக்னல்கள் கண்டுபிடிப்பு நம்பகத்தன்மையை உயர்த்தின.",
+      "time_2m": "2 நிமிடங்களுக்கு முன்",
+      "time_8m": "8 நிமிடங்களுக்கு முன்",
+      "time_14m": "14 நிமிடங்களுக்கு முன்"
+    }
+  },
+  "discovery": {
+    "title": "திட்டக் கண்டுபிடிப்பு",
+    "subtitle": "383+ திட்டங்களில் ஏஐ பொருத்தம்",
+    "search_placeholder": "திட்டங்கள், துறைகள் அல்லது முக்கியச்சொற்களை தேடுங்கள்...",
+    "filter_intel": "வடிகட்டி நுண்ணறிவு",
+    "apply_filters": "வடிகட்டிகளை பயன்படுத்து",
+    "showing": "{{total}} திட்டங்களில் {{count}} காட்டப்படுகிறது",
+    "no_matches": "உங்கள் தற்போதைய வடிகட்டிகளுடன் எந்த திட்டமும் பொருந்தவில்லை",
+    "analyzing": "பகுப்பாய்வு செய்கிறது...",
+    "primary_sector": "முதன்மைத் துறை",
+    "state_region": "மாநிலம் / பிராந்தியம்",
+    "entity_type": "நிறுவன வகை",
+    "best_match": "சிறந்த பொருத்தம்",
+    "deadline": "காலக்கெடு",
+    "saved_ready": "நீங்கள் சேமித்த திட்டங்கள் ஆவண சரிபார்ப்புக்கு தயாராக உள்ளன.",
+    "match_badge": "{{score}}% பொருத்தம்",
+    "processing_days": "~{{days}} நாள் செயலாக்கம்",
+    "search_hint": "வடிகட்டிகளை நீக்கவோ அல்லது தேடல் சொற்றொடரை மாற்றவோ முயற்சிக்கவும்.",
+    "no_description": "விவரம் இல்லை.",
+    "unknown_scheme": "அறியப்படாத திட்டம்",
+    "filter_options": {
+      "sectors": {
+        "all_sectors": "அனைத்து துறைகள்",
+        "any": "எல்லா துறைகளும்",
+        "manufacturing": "உற்பத்தி",
+        "services": "சேவைகள்",
+        "technology": "தொழில்நுட்பம்",
+        "agriculture": "வேளாண்மை",
+        "healthcare": "சுகாதாரம்",
+        "education": "கல்வி",
+        "food_processing": "உணவு பதப்படுத்தல்",
+        "textiles_garments": "நூல் மற்றும் ஆடைகள்",
+        "fintech": "பின்டெக்",
+        "renewable_energy": "புதுப்பிக்கத்தக்க ஆற்றல்",
+        "e_commerce": "மின்னணு வணிகம்"
+      },
+      "states": {
+        "all_states": "அனைத்து மாநிலங்கள்",
+        "all_india": "இந்தியா முழுவதும்",
+        "pan_india": "இந்தியா முழுவதும்",
+        "india": "இந்தியா",
+        "central_government": "மத்திய அரசு",
+        "national": "தேசியம்",
+        "tamil_nadu": "தமிழ்நாடு",
+        "maharashtra": "மகாராஷ்டிரா",
+        "karnataka": "கர்நாடகா",
+        "gujarat": "குஜராத்",
+        "delhi": "டெல்லி"
+      },
+      "entities": {
+        "all_entities": "அனைத்து நிறுவனங்கள்",
+        "proprietorship": "தனிநபர் உரிமம்",
+        "private_limited": "தனியார் லிமிடெட்",
+        "llp": "எல்.எல்.பி.",
+        "startup": "ஸ்டார்ட்அப்"
+      }
+    }
+  },
+  "login": {
+    "hero_platform": "நுண்ணறிவு தளம்",
+    "hero_title_top": "உங்கள் ஏஐ இயக்கும்",
+    "hero_title_middle": "நிதி ஆலோசகர்",
+    "hero_title_bottom": "இந்தியாவின் எம்.எஸ்.எம்.இ.களுக்காக",
+    "hero_subtitle": "இந்தத் தளம் உங்கள் வணிக சுயவிவரத்திற்கு பொருந்தும் அரசு திட்டங்களை தன்னிச்சையாக கண்டறிகிறது.",
+    "intelligence_keys": {
+      "orchestration": "ஏஜென்டிக் ஏஐ ஒருங்கிணைப்பு செயலிலுள்ளது",
+      "schemes_indexed": "383 திட்டங்கள் குறியிடப்பட்டு தயாராக உள்ளன",
+      "document_engine": "ஆவண சரிபார்ப்பு இயந்திரம்",
+      "encrypted": "முடிவு முதல் முடிவு வரை குறியாக்கம்"
+    },
+    "stats": {
+      "schemes": "திட்டங்கள்",
+      "languages": "மொழிகள்",
+      "accuracy": "துல்லியம்"
+    },
+    "create_account": "கணக்கு உருவாக்கு",
+    "welcome_back": "மீண்டும் வரவேற்கிறோம்",
+    "journey_subtitle": "உங்கள் நுண்ணறிவு நிதி பயணத்தை தொடங்குங்கள்.",
+    "signin_subtitle": "உங்கள் நுண்ணறிவு டாஷ்போர்டில் உள்நுழைக.",
+    "tabs": {
+      "signin": "உள்நுழை",
+      "signup": "பதிவு செய்"
+    },
+    "fields": {
+      "full_name": "முழுப் பெயர்",
+      "full_name_placeholder": "உங்கள் முழுப் பெயர்",
+      "business_email": "வணிக மின்னஞ்சல்",
+      "business_email_placeholder": "name@company.com",
+      "password": "கடவுச்சொல்",
+      "confirm_password": "கடவுச்சொல்லை உறுதி செய்",
+      "confirm_password_placeholder": "கடவுச்சொல்லை மீண்டும் உள்ளிடவும்"
+    },
+    "password_strength": {
+      "label": "வலிமை",
+      "empty": "காலி",
+      "weak": "பலவீனம்",
+      "fair": "சராசரி",
+      "good": "நன்று",
+      "strong": "வலிமை"
+    },
+    "forgot_password": "கடவுச்சொல்லை மறந்துவிட்டீர்களா?",
+    "submitting": {
+      "signup": "கணக்கு உருவாக்கப்படுகிறது...",
+      "signin": "உள்நுழைகிறது..."
+    },
+    "actions": {
+      "signup": "நுண்ணறிவு கணக்கை உருவாக்கு",
+      "signin": "அமர்வை தொடங்கு"
+    },
+    "trust": {
+      "ssl": "பாதுகாப்பான SSL",
+      "free": "இலவச அணுகல்",
+      "ai": "பொருத்த ஏஐ"
+    },
+    "errors": {
+      "enter_email": "உங்கள் மின்னஞ்சலை உள்ளிடவும்.",
+      "valid_email": "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்.",
+      "password_required": "கடவுச்சொல் அவசியம்.",
+      "password_length": "கடவுச்சொல் குறைந்தது 8 எழுத்துகள் இருக்க வேண்டும்.",
+      "full_name_required": "முழுப் பெயர் அவசியம்.",
+      "passwords_mismatch": "கடவுச்சொற்கள் பொருந்தவில்லை.",
+      "auth_failed": "அடையாளச் சரிபார்ப்பு தோல்வியடைந்தது.",
+      "server_unavailable": "சர்வருடன் இணைக்க முடியவில்லை. பின்னர் மீண்டும் முயற்சிக்கவும்."
+    }
+  },
+  "profile": {
+    "title": "உங்கள் நுண்ணறிவு சுயவிவரத்தை உருவாக்குங்கள்",
+    "subtitle": "இந்தத் தகவல் உங்கள் தனிப்பயன் திட்டக் கண்டுபிடிப்பு இயந்திரத்திற்கு வலு தருகிறது.",
+    "phase_label_clean": "படி 2 - வணிக நுண்ணறிவு சுயவிவரம்",
+    "phase_label": "படி 2 - வணிக நுண்ணறிவு சுயவிவரம்",
+    "step_label": "{{total}}-இல் {{current}}: {{title}}",
+    "current_step": "{{total}}-இல் {{current}}-ஆம் படி",
+    "select_placeholder": "தேர்ந்தெடுக்கவும்...",
+    "continue": "தொடரவும்",
+    "submit": "சமர்ப்பித்து திட்டங்களை கண்டறிக",
+    "saving": "சேமிக்கிறது...",
+    "skip": "தற்காலிகமாக சுயவிவர அமைப்பை தவிர்க்கவும்",
+    "back": "பின்செல்",
+    "required_error": "{{field}} அவசியம்.",
+    "steps": {
+      "promoter": "தொடக்க நபர் விவரம்",
+      "business": "வணிக விவரங்கள்",
+      "entity": "நிறுவனம் மற்றும் துறை",
+      "financial": "நிதி விவரங்கள்",
+      "location": "இடம்"
+    },
+    "fields": {
+      "full_name": "முழுப் பெயர்",
+      "date_of_birth": "பிறந்த தேதி",
+      "gender": "பாலினம்",
+      "social_category": "சமூக வகை",
+      "mobile_number": "மொபைல் எண்",
+      "email_address": "மின்னஞ்சல் முகவரி",
+      "aadhaar_number": "ஆதார் எண்",
+      "pan_number": "பான் எண்",
+      "registered_business_name": "பதிவு செய்யப்பட்ட வணிகப் பெயர்",
+      "brand_trade_name": "பிராண்ட் / வர்த்தகப் பெயர்",
+      "year_of_establishment": "தொடங்கிய ஆண்டு",
+      "business_stage": "வணிக நிலை",
+      "udyam_registered": "உத்யம் பதிவு செய்யப்பட்டதா?",
+      "gstin_registered": "ஜி.எஸ்.டி.ஐ.என் பதிவு செய்யப்பட்டதா?",
+      "business_description": "வணிக விவரம்",
+      "legal_entity_type": "சட்டபூர்வ நிறுவன வகை",
+      "primary_sector": "முதன்மைத் துறை",
+      "sub_sector_product": "துணைத் துறை / தயாரிப்பு",
+      "employees": "ஊழியர் எண்ணிக்கை",
+      "women_employees": "பெண் ஊழியர்கள்",
+      "technology_level": "தொழில்நுட்ப நிலை",
+      "export_intention": "ஏற்றுமதி நோக்கம்",
+      "dpiit_registration": "DPIIT / Startup India பதிவு",
+      "total_project_cost": "மொத்த திட்டச் செலவு",
+      "fixed_capital_investment": "நிலையான முதலீடு",
+      "annual_turnover": "வருடாந்திர வர்த்தக மதிப்பு",
+      "means_of_finance": "நிதி மூலம்",
+      "own_contribution": "சுய பங்களிப்பு %",
+      "preferred_bank": "விரும்பும் வங்கி",
+      "investment_requirement": "தேவையான முதலீடு",
+      "existing_loans_credit": "இருக்கும் கடன் / நன்மதிப்பு",
+      "state": "மாநிலம்",
+      "district": "மாவட்டம்",
+      "pin_code": "அஞ்சல் குறியீடு",
+      "taluk_block": "தாலுக்கு / பிளாக்",
+      "location_type": "இட வகை",
+      "premises_type": "இட வகை",
+      "business_address": "வணிக முகவரி"
+    },
+    "placeholders": {
+      "full_name": "ஆதாரில் இருப்பது போல",
+      "mobile_number": "10 இலக்க மொபைல்",
+      "email_address": "name@business.com",
+      "aadhaar_number": "12 இலக்கம்",
+      "pan_number": "ABCDE1234F",
+      "registered_business_name": "பான் / உத்யம் படி",
+      "brand_trade_name": "பதிவு பெயரிலிருந்து வேறானால்",
+      "business_description": "உங்கள் தயாரிப்புகள் / சேவைகளை 2-3 வாக்கியங்களில் எழுதுங்கள்...",
+      "sub_sector_product": "உதா. இயற்கை உணவு, மொபைல் பயன்பாடுகள்",
+      "dpiit_registration": "DIPP00000 (இருந்தால்)",
+      "district": "மாவட்டப் பெயரை உள்ளிடவும்",
+      "pin_code": "6 இலக்க அஞ்சல் குறியீடு",
+      "taluk_block": "தாலுக்கு பெயரை உள்ளிடவும்",
+      "business_address": "கதவு எண், தெரு, கிராமம், மாவட்டம் - அஞ்சல் குறியீடு"
+    },
+    "options": {
+      "gender": {
+        "female": "பெண்",
+        "male": "ஆண்",
+        "other": "பிற",
+        "prefer_not_to_say": "கூற விருப்பமில்லை"
+      },
+      "categories": {
+        "general": "பொது",
+        "sc": "தொகுதி சாதி",
+        "st": "தொகுதி பழங்குடி",
+        "obc": "பிற்படுத்தப்பட்டோர்",
+        "minority": "சிறுபான்மை",
+        "other": "பிற"
+      },
+      "yes_no": {
+        "yes": "ஆம்",
+        "no": "இல்லை"
+      },
+      "business_stages": {
+        "idea_stage": "கருத்து நிலை",
+        "early_stage_0_1_year": "ஆரம்ப நிலை (0-1 ஆண்டு)",
+        "growth_stage_1_3_years": "வளர்ச்சி நிலை (1-3 ஆண்டுகள்)",
+        "established_3_years": "நிறுவப்பட்ட நிலை (3+ ஆண்டுகள்)"
+      },
+      "entity_types": {
+        "proprietorship": "தனிநபர் உரிமம்",
+        "partnership_firm": "கூட்டு நிறுவனம்",
+        "limited_liability_partnership_llp": "வரையறுக்கப்பட்ட பொறுப்பு கூட்டாண்மை (LLP)",
+        "private_limited_company": "தனியார் லிமிடெட் நிறுவனம்",
+        "one_person_company_opc": "ஒரு நபர் நிறுவனம் (OPC)",
+        "section_8_company": "பிரிவு 8 நிறுவனம்",
+        "startup_registered_entity": "ஸ்டார்ட்அப் பதிவு செய்யப்பட்ட நிறுவனம்",
+        "self_help_group": "சுய உதவிக் குழு",
+        "ngo": "அரசல்லா அமைப்பு"
+      },
+      "sectors": {
+        "manufacturing": "உற்பத்தி",
+        "services": "சேவைகள்",
+        "technology": "தொழில்நுட்பம்",
+        "retail": "சில்லறை விற்பனை",
+        "agriculture": "வேளாண்மை",
+        "healthcare": "சுகாதாரம்",
+        "education": "கல்வி",
+        "construction": "கட்டுமானம்",
+        "food_processing": "உணவு பதப்படுத்தல்",
+        "textiles_garments": "நூல் மற்றும் ஆடை",
+        "handicrafts": "கைவினைப் பொருட்கள்",
+        "tourism_hospitality": "சுற்றுலா மற்றும் விருந்தோம்பல்",
+        "logistics_transportation": "பொருள் இயக்கம் மற்றும் போக்குவரத்து",
+        "e_commerce": "மின்னணு வாணிகம்",
+        "fintech": "நிதி தொழில்நுட்பம்",
+        "renewable_energy": "புதுப்பிக்கத்தக்க ஆற்றல்",
+        "biotechnology": "உயிர்தொழில்நுட்பம்",
+        "pharmaceuticals": "மருந்துத்துறை",
+        "electronics_manufacturing": "மின்னணு உற்பத்தி",
+        "other": "பிற"
+      },
+      "employee_counts": {
+        "item_1_5": "1-5",
+        "item_6_10": "6-10",
+        "item_11_25": "11-25",
+        "item_26_50": "26-50",
+        "item_51_100": "51-100",
+        "item_100": "100+"
+      },
+      "women_employee_counts": {
+        "item_0": "0",
+        "item_1_5": "1-5",
+        "item_6_10": "6-10",
+        "item_11_25": "11-25",
+        "item_26_50": "26-50",
+        "item_50": "50+"
+      },
+      "technology_levels": {
+        "traditional_manual": "பாரம்பரிய / கைமுறை",
+        "semi_automated": "பகுதி தானியக்கம்",
+        "automated": "தானியக்கம்",
+        "advanced_digital": "மேம்பட்ட / டிஜிட்டல்"
+      },
+      "export_intentions": {
+        "no_domestic_only": "இல்லை - உள்நாட்டு சந்தை மட்டும்",
+        "planning_to_export": "ஏற்றுமதி செய்ய திட்டமிடுகிறது",
+        "currently_exporting": "தற்போது ஏற்றுமதி செய்கிறது"
+      },
+      "turnover": {
+        "below_5l": "ரூ. 5 லட்சத்திற்கு கீழ்",
+        "item_5l_25l": "ரூ. 5 லட்சம் - ரூ. 25 லட்சம்",
+        "item_25l_1cr": "ரூ. 25 லட்சம் - ரூ. 1 கோடி",
+        "item_1cr_5cr": "ரூ. 1 கோடி - ரூ. 5 கோடி",
+        "above_5cr": "ரூ. 5 கோடிக்கு மேல்"
+      },
+      "investments": {
+        "below_1l": "ரூ. 1 லட்சத்திற்கு கீழ்",
+        "item_1l_10l": "ரூ. 1 லட்சம் - ரூ. 10 லட்சம்",
+        "item_10l_25l": "ரூ. 10 லட்சம் - ரூ. 25 லட்சம்",
+        "item_25l_1cr": "ரூ. 25 லட்சம் - ரூ. 1 கோடி",
+        "above_1cr": "ரூ. 1 கோடிக்கு மேல்"
+      },
+      "finance_modes": {
+        "own_contribution": "சுய பங்களிப்பு",
+        "bank_loan_own": "வங்கி கடன் + சுய பங்கு",
+        "investor_own": "முதலீட்டாளர் + சுய பங்கு",
+        "grant_own": "மானியம் + சுய பங்கு"
+      },
+      "own_contribution": {
+        "below_10": "10% க்குக் கீழ்",
+        "item_10_25": "10% - 25%",
+        "item_25_50": "25% - 50%",
+        "above_50": "50% க்கும் மேல்"
+      },
+      "banks": {
+        "state_bank_of_india": "ஸ்டேட் பாங்க் ஆஃப் இந்தியா",
+        "indian_bank": "இந்தியன் வங்கி",
+        "canara_bank": "கனரா வங்கி",
+        "punjab_national_bank": "பஞ்சாப் நேஷனல் வங்கி",
+        "hdfc_bank": "HDFC வங்கி",
+        "icici_bank": "ICICI வங்கி",
+        "axis_bank": "ஆக்சிஸ் வங்கி",
+        "other": "பிற"
+      },
+      "states": {
+        "andhra_pradesh": "ஆந்திரப் பிரதேசம்",
+        "arunachal_pradesh": "அருணாச்சலப் பிரதேசம்",
+        "assam": "அசாம்",
+        "bihar": "பீஹார்",
+        "chhattisgarh": "சத்தீஸ்கர்",
+        "goa": "கோவா",
+        "gujarat": "குஜராத்",
+        "haryana": "ஹரியானா",
+        "himachal_pradesh": "ஹிமாச்சலப் பிரதேசம்",
+        "jharkhand": "ஜார்கண்ட்",
+        "karnataka": "கர்நாடகா",
+        "kerala": "கேரளா",
+        "madhya_pradesh": "மத்தியப் பிரதேசம்",
+        "maharashtra": "மகாராஷ்டிரா",
+        "manipur": "மணிப்பூர்",
+        "meghalaya": "மேகாலயா",
+        "mizoram": "மிசோரம்",
+        "nagaland": "நாகாலாந்து",
+        "odisha": "ஒடிஷா",
+        "punjab": "பஞ்சாப்",
+        "rajasthan": "ராஜஸ்தான்",
+        "sikkim": "சிக்கிம்",
+        "tamil_nadu": "தமிழ்நாடு",
+        "telangana": "தெலங்கானா",
+        "tripura": "திரிபுரா",
+        "uttar_pradesh": "உத்தரப் பிரதேசம்",
+        "uttarakhand": "உத்தரகாண்ட்",
+        "west_bengal": "மேற்கு வங்காளம்",
+        "delhi": "டெல்லி",
+        "jammu_kashmir": "ஜம்மு மற்றும் காஷ்மீர்",
+        "ladakh": "லடாக்",
+        "puducherry": "புதுச்சேரி",
+        "chandigarh": "சண்டிகர்"
+      },
+      "location_types": {
+        "urban": "நகர்ப்புறம்",
+        "semi_urban": "அரைய்நகர்ப்புறம்",
+        "rural": "கிராமப்புறம்",
+        "industrial_area": "தொழிற்புறம்",
+        "special_economic_zone": "சிறப்பு பொருளாதார மண்டலம்"
+      },
+      "premises_types": {
+        "owned": "சொந்த இடம்",
+        "rented": "வாடகை இடம்",
+        "leased": "குத்தகை இடம்",
+        "shared_workspace": "பகிரப்பட்ட பணியிடம்",
+        "industrial_shed": "தொழிற்சாலை கூடம்"
+      }
+    }
+  },
+  "modal": {
+    "overview": "மூலோபாய மேலோட்டம்",
+    "eligibility": "முக்கிய தகுதி",
+    "intel_advisor": "திட்ட விவர உதவியாளர்",
+    "grounded_tag": "BGE-M3 அடிப்படை",
+    "official_portal": "அதிகாரப்பூர்வ போர்ட்டலை திற",
+    "chat_placeholder": "படிகள், ஆவணங்கள் அல்லது தகுதி பற்றி கேளுங்கள்...",
+    "show_more_about": "{{topic}} பற்றி மேலும் காட்டு",
+    "quick_chips": {
+      "eligibility": "தகுதி",
+      "documents": "தேவையான ஆவணங்கள்",
+      "apply": "எப்படி விண்ணப்பிப்பது",
+      "benefits": "நன்மைகள்"
+    }
+  },
+  "assistant": {
+    "title": "ஏஐ ஆலோசகர்",
+    "subtitle": "RAG ஆதரித்த உரையாடல் நுண்ணறிவு",
+    "welcome": "வணக்கம்! நான் உங்கள் ஏஐ ஆலோசகர்.",
+    "error_sync": "ஒத்திசைவு பிழை ஏற்பட்டது. சிறிது நேரம் கழித்து மீண்டும் முயற்சிக்கவும்.",
+    "response_ready": "உங்கள் கேள்வி செயலாக்கப்பட்டது. கீழே விவரங்களைப் பாருங்கள்.",
+    "application_steps": "விண்ணப்ப படிகள்",
+    "grounded_badge": "பன்மொழி ஆதாரம்",
+    "reasoning": "நுண்ணறிவு விளக்கம்",
+    "source": "ஆதாரம்",
+    "quick_questions": "விரைவு கேள்விகள்",
+    "clear_chat": "அரட்டையை அழி",
+    "engine_status": "செயலில் உள்ள RAG நுண்ணறிவு இயந்திரம்",
+    "footer_note_clean": "RAG நுண்ணறிவால் இயக்கப்படுகிறது - அறிவுக் களஞ்சியத்தில் ஆதாரம் - 383 திட்டங்கள்",
+    "quick_questions_items": {
+      "subsidy": "PMEGP நிதியுதவி சதவீதம் எவ்வளவு?",
+      "application": "Startup India Seed Fundக்கு எப்படி விண்ணப்பிப்பது?",
+      "documents": "MUDRA கடனுக்கு என்ன ஆவணங்கள் வேண்டும்?",
+      "eligibility": "பெண் தொழில்முனைவோர் திட்டங்களுக்கு நான் தகுதியுள்ளவரா?",
+      "discovery": "உணவு பதப்படுத்தலுக்கு சிறந்த திட்டங்கள் எவை?",
+      "details": "Stand-Up India தேவைகளை விளக்கவும்"
+    },
+    "quick_question_tags": {
+      "subsidy": "நிதியுதவி",
+      "application": "விண்ணப்பம்",
+      "documents": "ஆவணங்கள்",
+      "eligibility": "தகுதி",
+      "discovery": "கண்டுபிடிப்பு",
+      "details": "விவரங்கள்"
+    }
+  },
+  "validation": {
+    "subtitle": "பயனர் தேர்ந்தெடுத்த திட்டத்திற்கேற்ப பதிவேற்றப்பட்ட ஆவணங்களைச் சரிபார்க்கவும்.",
+    "validate_all": "அனைத்தையும் சரிபார்",
+    "reset_uploads": "பதிவேற்றங்களை மீட்டமை",
+    "shortlisted_scheme": "தேர்ந்தெடுக்கப்பட்ட திட்டம்:",
+    "shortlisted_count": "{{count}} தேர்ந்தெடுக்கப்பட்டது",
+    "dropzone_disabled": "ஆவண சரிபார்ப்பை செயல்படுத்த முதலில் ஒரு திட்டத்தை தேர்ந்தெடுக்கவும்.",
+    "dropzone_active": "இந்தத் திட்டத்துடன் இணைக்க கோப்புகளை இங்கே விடுங்கள்",
+    "dropzone_idle": "தேர்ந்தெடுத்த திட்டத்திற்கான ஆவணங்களை பதிவேற்றுங்கள்",
+    "max_size": "ஏற்றுக்கொள்ளப்படும்: PDF, JPG, PNG, WebP, DOC, DOCX",
+    "scope_text": "இந்தப் பக்கத்தில் உள்ள பதிவேற்றங்கள் தற்போது தேர்ந்தெடுக்கப்பட்ட திட்டத்திற்கே மட்டுப்படுத்தப்பட்டவை. திட்டத்தை மாற்றினால் பதிவேற்றப் பட்டியல் மீட்டமைக்கப்படும்.",
+    "refreshing_requirements": "சமீபத்திய திட்ட தேவைகள் புதுப்பிக்கப்படுகின்றன...",
+    "requirement_load_error": "திட்ட தேவைகளை ஏற்ற முடியவில்லை.",
+    "no_documents_title": "இந்தத் திட்டத்திற்காக இன்னும் ஆவணங்கள் பதிவேற்றப்படவில்லை.",
+    "no_documents_subtitle": "மேலே கோப்புகளை பதிவேற்றி, அவற்றை தேவையான ஆவணத்துடன் இணைத்து சரிபார்க்கவும்.",
+    "select_required_document": "தேவையான ஆவணத்தைத் தேர்ந்தெடுக்கவும்",
+    "validating": "சரிபார்க்கிறது...",
+    "validate": "சரிபார்",
+    "trust_score": "நம்பிக்கை: {{score}}%",
+    "matched_requirement": "பொருந்திய திட்டத் தேவை: {{requirement}}",
+    "validated_at": "{{time}} அன்று சரிபார்க்கப்பட்டது",
+    "checked_at": "{{time}} அன்று சோதிக்கப்பட்டது",
+    "validation_complete": "சரிபார்ப்பு முடிந்தது.",
+    "readiness_report": "தயார்நிலை அறிக்கை",
+    "readiness_score": "திட்டத் தயார்நிலை மதிப்பெண்",
+    "no_requirements_loaded": "திட்டத்திற்கான தேவைகள் இன்னும் ஏற்றப்படவில்லை.",
+    "verified_requirements": "{{total}} தேவையான ஆவணங்களில் {{verified}} சரிபார்க்கப்பட்டுள்ளன.",
+    "required_documents_title": "இந்தத் திட்டத்திற்கான தேவையான ஆவணங்கள்",
+    "validation_scope": "சரிபார்ப்பு வரம்பு",
+    "validation_scope_text": "இந்தப் பக்கம் தற்போது பயனர் தேர்வுப் பட்டியலுடன் இணைக்கப்பட்டுள்ளது. ஒவ்வொரு பதிவேற்றமும் செயலில் உள்ள திட்டத் தேவைகளுடன் ஒப்பிடப்படுகிறது.",
+    "statuses": {
+      "verified": "சரிபார்க்கப்பட்டது",
+      "review": "மீளாய்வு",
+      "invalid": "செல்லாது",
+      "pending": "நிலுவையில்",
+      "needs_review": "மீளாய்வு தேவை",
+      "awaiting_check": "சோதனைக்காக காத்திருக்கிறது"
+    },
+    "alerts": {
+      "select_scheme": "முதலில் தேர்ந்தெடுக்கப்பட்ட திட்டத்தைத் தேர்வு செய்யவும்.",
+      "select_document_type": "முதலில் ஆவண வகையைத் தேர்வு செய்யவும்."
+    },
+    "empty_shortlist": {
+      "title": "இன்னும் எந்தத் திட்டமும் தேர்ந்தெடுக்கப்படவில்லை",
+      "subtitle": "இந்த ஆவண சரிபார்ப்பு ஓட்டம் தற்போது திட்டக் கண்டுபிடிப்பில் பயனர் தேர்ந்தெடுத்த திட்டங்களுக்கே செயல்படும்."
+    }
+  }
+}

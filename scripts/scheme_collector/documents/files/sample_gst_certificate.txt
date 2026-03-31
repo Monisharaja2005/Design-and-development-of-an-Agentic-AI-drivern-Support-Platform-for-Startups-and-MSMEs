@@ -1,0 +1,9 @@
+﻿Government of India
+Goods and Services Tax Network
+Name of Enterprise: Acme Industries Private Limited
+GSTIN: 27ABCDE1234F1Z5
+PAN: ABCDE1234F
+Certificate No: GST/2025/000123
+Date: 13/02/2025
+Digital Signature: Valid
+https://services.gst.gov.in

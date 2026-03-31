@@ -1,0 +1,15 @@
+﻿
+> frontend@0.0.0 build
+> vite build
+
+[36mvite v5.4.11 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 4 modules transformed.
+[31mx[39m Build failed in 196ms
+[31merror during build:
+[31m[@tailwindcss/vite:generate:build] Cannot convert undefined or null to object[31m
+file: [36mD:/Main_project1/final/frontend/src/index.css[31m
+    at B.generate (file:///d:/Main_project1/final/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:5598)
+    at async Object.transform (file:///d:/Main_project1/final/frontend/node_modules/@tailwindcss/vite/dist/index.mjs:1:3630)
+    at async transform (file:///d:/Main_project1/final/frontend/node_modules/rollup/dist/es/shared/node-entry.js:21246:16)
+    at async ModuleLoader.addModuleSource (file:///d:/Main_project1/final/frontend/node_modules/rollup/dist/es/shared/node-entry.js:21474:36)[39m
